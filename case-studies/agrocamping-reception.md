@@ -2,7 +2,7 @@
 
 AgroCamping Reception is an internal application for a family campsite. It connects incoming reservations and enquiries with reception work and financial records.
 
-I coordinate development for my parents' campsite. My role is to turn day-to-day needs into requirements, set priorities and define acceptance criteria. I use AI coding tools for implementation and verification.
+Development coordination covers turning day-to-day reception needs into requirements, setting priorities and defining acceptance criteria. AI coding tools are used for implementation and verification.
 
 The stack is TypeScript, Astro, Express, Prisma, SQLite, Python, shell tooling, and GitLab CI.
 
@@ -36,7 +36,7 @@ Retaining an import identity does not establish irreversible anonymisation. This
 
 ## Interview topics
 
-In an interview, I can discuss how a reception problem becomes a checkable acceptance criterion and how to investigate a record changed by a repeated import. Other topics include distinguishing integration failures from incomplete payment evidence, and reviewing changes through tests, migration checks, and release recovery scenarios. The privacy controls also provide examples of where operational policy is still required.
+Topics for technical discussion include turning a reception problem into a checkable acceptance criterion and investigating a record changed by a repeated import. Other topics include distinguishing integration failures from incomplete payment evidence, and reviewing changes through tests, migration checks, and release recovery scenarios. The privacy controls also provide examples of where operational policy is still required.
 
 ## Review scope
 

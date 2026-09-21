@@ -8,9 +8,9 @@ The stack is Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe and GitL
 
 The form has to connect what guests see with what reception can confirm. Dates, party size, pitch type, electricity and payment state all affect that decision. Guests also need clear outcomes when they submit a request again, a payment is interrupted or an email cannot be delivered.
 
-## My role
+## Development responsibilities
 
-I coordinate development for my parents' campsite. My work covers requirements, review of the results, fixes and delivery. I use AI coding tools for implementation and verification.
+Development coordination for the family campsite covers requirements, review of results, fixes and delivery. AI coding tools are used for implementation and verification.
 
 ## How the system handles bookings
 
