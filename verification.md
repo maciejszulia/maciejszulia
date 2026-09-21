@@ -30,8 +30,8 @@ The CLI documentation update also passed its
 [GitLab pipeline](https://gitlab.com/maciejszulia/rogalddl-scraper/-/pipelines/2867408036)
 at commit `da99e1882fa7776f4bfe8154d4a376705d470867`.
 
-The public CLI README was the only changed file in that repository. The private
-application changes are documentation. Source snapshot hashes above identify the
+During the initial portfolio review, the public CLI README was the only changed
+file in that repository. The private application changes in that review were documentation. Source snapshot hashes above identify the
 application code reviewed, rather than a later documentation-only commit.
 
 ## Limits of these results
@@ -43,5 +43,20 @@ unavailable local API does not demonstrate a completed reservation.
 These results do not establish a coverage percentage, security certification,
 production health, uptime, performance gains or legal compliance. They are a
 reproducible starting point for technical discussion.
+
+## Follow-up README and code audit: 21 September 2026
+
+A later audit corrected two CLI documentation guarantees and fixed the syntax
+checker for checkout paths containing spaces. At commit
+[`992a8126`](https://gitlab.com/maciejszulia/rogalddl-scraper/-/commit/992a8126a5ff3ea28cc7dcad51e7827926b89081), the fresh offline suite passed
+**75 tests, 0 failed, 0 skipped**, including the new regression. The
+[merge-request pipeline](https://gitlab.com/maciejszulia/rogalddl-scraper/-/pipelines/2868596537) also passed.
+The README installation paths and bounded scan example were checked with isolated
+synthetic tools. Live extraction, playback and audio fingerprinting remain untested.
+
+These results are a separate run; the earlier snapshot and its 74-test result
+above remain historical evidence. The audit also checked the website and reception
+case-study claims against their development source. It did not certify production
+configuration or complete legal compliance.
 
 [Back to profile](README.md)
