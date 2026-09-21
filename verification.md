@@ -30,7 +30,7 @@ The CLI documentation update also passed its
 [GitLab pipeline](https://gitlab.com/maciejszulia/rogalddl-scraper/-/pipelines/2867408036)
 at commit `da99e1882fa7776f4bfe8154d4a376705d470867`.
 
-During the initial portfolio review, the public CLI README was the only changed
+During the initial documentation review, the public CLI README was the only changed
 file in that repository. The private application changes in that review were documentation. Source snapshot hashes above identify the
 application code reviewed, rather than a later documentation-only commit.
 
@@ -42,7 +42,7 @@ unavailable local API does not demonstrate a completed reservation.
 
 These results do not establish a coverage percentage, security certification,
 production health, uptime, performance gains or legal compliance. They are a
-reproducible starting point for technical discussion.
+record of the checked snapshots and selected tests.
 
 ## Follow-up README and code audit: 21 September 2026
 
@@ -55,8 +55,8 @@ The README installation paths and bounded scan example were checked with isolate
 synthetic tools. Live extraction, playback and audio fingerprinting remain untested.
 
 These results are a separate run; the earlier snapshot and its 74-test result
-above remain historical evidence. The audit also checked the website and reception
-case-study claims against their development source. It did not certify production
+above remain historical evidence. The audit also checked the claims in the website
+and reception overviews against their development source. It did not certify production
 configuration or complete legal compliance.
 
-[Back to profile](README.md)
+[Project index](README.md)

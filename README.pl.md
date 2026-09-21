@@ -1,56 +1,32 @@
-# Maciej Szulia
+# Dokumentacja projektów
 
-Wsparcie techniczne · wdrożenia · aplikacje webowe · Linux  
-Olsztyn · Dostępność: pełny etat, zdalnie lub hybrydowo
+Opisy techniczne, mechanizmy ochrony danych i wyniki weryfikacji aplikacji
+AgroCamping oraz lokalnego katalogu metadanych obsługiwanego z terminala.
 
-[Strona i API rezerwacji](case-studies/agrocamping-website.md)
-· [System recepcji](case-studies/agrocamping-reception.md)
-· [CLI](https://gitlab.com/maciejszulia/rogalddl-scraper)
-
-Praca w AgroCamping Olsztyn, kempingu prowadzonym przez rodziców Macieja Szulii,
-obejmuje pomoc przy rezerwacjach i korespondencji z gośćmi oraz koordynację rozwoju
-strony i aplikacji recepcji.
-Oba projekty AgroCamping wynikają z tej pracy. Pomagają obsłużyć rezerwacje
-trafiające do recepcji i utrzymać porządek w danych wymienianych między systemami.
-
-Doświadczenie komercyjne obejmuje stanowiska juniorskie we frontendzie,
-e-commerce i systemach CMS, między innymi pracę z PrestaShop i InsERT Sello.
-
-[English](README.md) · [LinkedIn](https://www.linkedin.com/in/maciej-szulia)
-· [Strona AgroCamping](https://www.agrocamping.eu/)
+[English](README.md)
 
 ## Projekty
 
-- [Strona AgroCamping i API rezerwacji](case-studies/agrocamping-website.md).
-  Serwis po polsku, angielsku i niemiecku, z osobnym API. Opis pokazuje,
-  jak rezerwacja trafia do recepcji, co się dzieje po awarii powiadomienia
-  i jakie dane zapisują formularze oraz analityka.
-- [System recepcji](case-studies/agrocamping-reception.md).
-  Aplikacja do codziennej pracy z rezerwacjami. Ponowny import zachowuje przydział
-  miejsca i cenę ustawione przez pracownika recepcji. Opis pokazuje też uprawnienia
-  użytkowników i przywracanie działania po nieudanym wdrożeniu.
-- [Lokalny katalog metadanych, CLI](https://gitlab.com/maciejszulia/rogalddl-scraper).
-  Niewielki projekt w Node.js, bez zależności npm. Można pobrać kod i sprawdzić,
-  dlaczego wpis został zachowany, połączony z innym albo odrzucony. Testy działają
-  offline, a README opisuje instalację i sprawdzanie danych wejściowych.
+| Projekt | Zakres | Technologie |
+| --- | --- | --- |
+| [Strona AgroCamping i API rezerwacji](case-studies/agrocamping-website.md) | Serwis po polsku, angielsku i niemiecku; reguły rezerwacji, obsługa zdarzeń płatności, ponawianie powiadomień i ochrona danych gości. | Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe, GitLab CI |
+| [System recepcji](case-studies/agrocamping-reception.md) | Import rezerwacji, ewidencja finansowa, uprawnienia i przywracanie działania po nieudanym wdrożeniu. Ponowny import zachowuje przydział miejsca i cenę ustawione przez pracownika recepcji. | TypeScript, Astro, Express, Prisma, SQLite, Python, narzędzia powłoki, GitLab CI |
+| [Lokalny katalog metadanych, CLI](https://gitlab.com/maciejszulia/rogalddl-scraper) | Zapisuje, dlaczego wpis został zachowany, połączony z innym albo odrzucony. Repozytorium opisuje instalację i sprawdzanie danych wejściowych oraz zawiera testy offline na danych syntetycznych. | Node.js, bez zależności npm |
 
-Kod systemów firmowych pozostaje prywatny. Publiczne opisy pokazują ich budowę
-i ograniczenia, bez danych gości ani konfiguracji używanej w firmie. Projekt CLI
-można samodzielnie uruchomić.
+Publiczna strona: [agrocamping.eu](https://www.agrocamping.eu/).
 
-## Sposób pracy
+## Dokumentacja uzupełniająca
 
-Zakres prac przy projektach kempingu obejmuje opis potrzeb recepcji, ustalenie
-kolejności zmian, koordynację rozwoju i sprawdzenie wyników względem przyjętych
-wymagań. Do implementacji i weryfikacji służą narzędzia AI, w tym Claude Code i Codex.
+- [Dane gości, odzyskiwanie działania i licencje](engineering-practices.md): zgody, retencja, uprawnienia, usuwanie danych i ograniczenia praw do wykorzystania kodu oraz treści.
+- [Wyniki weryfikacji](verification.md): sprawdzone wersje kodu, polecenia, wyniki testów i niewykonane sprawdzenia.
 
-Błąd widoczny na ekranie może mieć przyczynę w API, bazie danych, skrypcie importu
-albo ustawieniach wdrożenia. Do sprawdzania zmian służą testy i powtarzalny proces
-budowania aplikacji. Dokumentacja opisuje uruchomienie projektu, znane problemy
-i kwestie, które pozostają do sprawdzenia.
+## Dostęp do kodu i zakres weryfikacji
 
-Dokumentacja obejmuje też rozwiązania dotyczące danych gości: dobrowolne zgody,
-czas przechowywania, uprawnienia i usuwanie danych.
-[Notatki o ochronie danych](engineering-practices.md) wyjaśniają, co robi kod
-i gdzie kończą się jego możliwości. Te notatki nie są
-pełnym audytem prawnym.
+Repozytoria strony i systemu recepcji są prywatne. Publiczne opisy przedstawiają
+implementację bez publikowania danych gości ani konfiguracji produkcyjnej.
+Kod CLI jest publiczny i można go uruchomić lokalnie.
+
+Wyniki weryfikacji dotyczą zapisanych wersji kodu i wybranych sprawdzeń. Nie
+potwierdzają stanu produkcji, pełnego pokrycia testami ani zgodności prawnej.
+Do implementacji i weryfikacji projektów AgroCamping służą narzędzia AI,
+w tym Claude Code i Codex.

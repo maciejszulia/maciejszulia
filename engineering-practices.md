@@ -1,9 +1,8 @@
 # Guest data, recovery and licensing
 
-These notes cover parts of the projects that a screenshot cannot show: what
-happens to guest data, how the applications recover from failures and what can
-be reused. They are based on code review, not a legal opinion, certification or
-an audit of every deployment.
+These notes describe guest-data handling, recovery from failures and reuse rights
+in the documented projects. They are based on code review, not a legal opinion,
+certification or an audit of every deployment.
 
 ## How the applications handle guest data
 
@@ -36,7 +35,7 @@ irreversible anonymity.
 
 These details help when diagnosing a problem: they show which records to check
 before retrying an operation or deleting data. See the [website](case-studies/agrocamping-website.md) and
-[reception](case-studies/agrocamping-reception.md) case studies.
+[reception](case-studies/agrocamping-reception.md) project overviews.
 
 ## Public source, content rights and licensing
 
@@ -54,15 +53,15 @@ behaviour and known limits. It does not establish copyright clearance.
 The two business applications remain private and proprietary. The public CLI
 currently has no declared software license. Publication here does not add a
 license to that code, the business applications, photographs or third-party media.
-Dependency and tool licenses remain separate. This portfolio makes no blanket
+Dependency and tool licenses remain separate. This documentation makes no blanket
 claim that all third-party rights have been audited.
 
 ## What was checked
 
-The case studies use identified development-source snapshots reviewed on
+The project overviews use identified development-source snapshots reviewed on
 21 September 2026. A test result refers to the named snapshot and test selection;
 it does not prove production configuration, complete test coverage, traffic,
 business impact or legal compliance. The [verification record](verification.md)
 states what was actually run.
 
-[Back to profile](README.md)
+[Project index](README.md)

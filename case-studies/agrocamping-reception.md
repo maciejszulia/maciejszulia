@@ -1,8 +1,6 @@
 # AgroCamping Reception
 
-AgroCamping Reception is an internal application for a family campsite. It connects incoming reservations and enquiries with reception work and financial records.
-
-Development coordination covers turning day-to-day reception needs into requirements, setting priorities and defining acceptance criteria. AI coding tools are used for implementation and verification.
+AgroCamping Reception is an internal campsite application. It connects incoming reservations and enquiries with reception work and financial records.
 
 The stack is TypeScript, Astro, Express, Prisma, SQLite, Python, shell tooling, and GitLab CI.
 
@@ -32,12 +30,10 @@ The backend checks user identity against the current database state. Endpoint au
 | Backup rotation | Removes older local backup files according to a configured age. | Covers backup age, not a comprehensive guest-data retention policy. |
 | Reduced logging and rejection records | Avoids copying some sensitive content. | Identifiers and free-text business records can remain personal data. |
 
-Retaining an import identity does not establish irreversible anonymisation. This case study makes no claim of legal certification or GDPR compliance. Rights to the source code and third-party components are separate from privacy controls.
+Retaining an import identity does not establish irreversible anonymisation. This overview makes no claim of legal certification or GDPR compliance. Rights to the source code and third-party components are separate from privacy controls.
 
-## Interview topics
+## Source and review scope
 
-Topics for technical discussion include turning a reception problem into a checkable acceptance criterion and investigating a record changed by a repeated import. Other topics include distinguishing integration failures from incomplete payment evidence, and reviewing changes through tests, migration checks, and release recovery scenarios. The privacy controls also provide examples of where operational policy is still required.
+This overview covers the private development-source snapshot reviewed on 21 September 2026. Guest records and production credentials are excluded. Production configuration and operational health were not verified.
 
-## Review scope
-
-This case study covers the private development-source snapshot reviewed on 21 September 2026. Guest records and production credentials are excluded. The description explains what the tests cover; it makes no claims about measured scale, unverified pass counts, or production uptime. Source access and a demonstration using synthetic data can be arranged separately.
+[Project index](../README.md) · [Verification record](../verification.md) · [Guest data, recovery and licensing](../engineering-practices.md)

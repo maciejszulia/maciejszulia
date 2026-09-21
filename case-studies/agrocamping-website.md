@@ -1,16 +1,12 @@
 # AgroCamping: multilingual website and booking workflow
 
-AgroCamping is a family campsite in Olsztyn, Poland. This project combines its Polish, English and German website with a separate booking API and an integration with the reception application.
+AgroCamping is a campsite in Olsztyn, Poland. This project combines its Polish, English and German website with a separate booking API and an integration with the reception application.
 
 The stack is Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe and GitLab CI. The public website is [agrocamping.eu](https://www.agrocamping.eu/).
 
 ## The booking problem
 
 The form has to connect what guests see with what reception can confirm. Dates, party size, pitch type, electricity and payment state all affect that decision. Guests also need clear outcomes when they submit a request again, a payment is interrupted or an email cannot be delivered.
-
-## Development responsibilities
-
-Development coordination for the family campsite covers requirements, review of results, fixes and delivery. AI coding tools are used for implementation and verification.
 
 ## How the system handles bookings
 
@@ -34,6 +30,8 @@ Authenticated API operations replace selected reservation identity fields, clear
 
 These controls cover specific data paths and do not establish blanket GDPR compliance. The retention sweep does not automatically delete every guest record. Payment data held by providers, delivered email, backups and the reception application have separate data lifecycles. This review does not verify their complete erasure or the organisational and legal arrangements around them.
 
-## Review scope
+## Source and review scope
 
-The source is private and proprietary. This case study covers code reviewed on 21 September 2026. It does not certify the live deployment's configuration, uptime, conversion impact or compliance. No revenue or performance improvement is claimed without measured evidence.
+The source is private and proprietary. This overview covers code reviewed on 21 September 2026. Production configuration and operational health were not verified.
+
+[Project index](../README.md) · [Verification record](../verification.md) · [Guest data, recovery and licensing](../engineering-practices.md)
