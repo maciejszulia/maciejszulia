@@ -9,8 +9,8 @@ Olsztyn, Poland · Looking for full-time remote or hybrid work
 
 I help with reservations and guest correspondence at AgroCamping Olsztyn, my
 parents' campsite. I also coordinate the development of its website and reception
-software. The two AgroCamping projects come from that work: getting bookings to
-reception, keeping records consistent and dealing with integration problems.
+software. Both AgroCamping projects grew out of that work. They handle bookings
+as they reach reception and help keep records consistent when systems exchange data.
 
 I have commercial experience in junior frontend development and e-commerce,
 including work with PrestaShop and InsERT Sello.
@@ -22,36 +22,35 @@ including work with PrestaShop and InsERT Sello.
 ## Projects
 
 - [AgroCamping website and booking API](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md).
-  A Polish, English and German website with a separate TypeScript API. The notes
-  explain the booking flow, what happens when a notification fails, and how the
-  forms and analytics limit the data they keep.
+  A website in Polish, English and German, with a separate TypeScript API.
+  The case study follows a booking through the system, including what happens
+  when a notification fails and which data the forms and analytics keep.
 - [Reception system](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md).
-  Tools for daily reception work. The details include handling the same booking
-  more than once without overwriting staff decisions, user permissions and
-  recovery after a failed release.
+  An application for daily reception work. Repeated imports preserve pitch
+  and price changes made by reception staff. The case study also covers user
+  permissions and recovery after a failed release.
 - [Local metadata catalogue CLI](https://gitlab.com/maciejszulia/rogalddl-scraper).
-  A smaller Node.js project with no npm dependencies. You can read the code,
+  A small Node.js project with no npm dependencies. You can read the code,
   see why entries were kept, merged or rejected, and run the offline tests locally.
   Its README includes installation steps and input-validation details.
 
-The business applications have private source repositories. Their public notes
-cover the design and its limits without exposing guest records or operational
-configuration. The CLI is available to download and run.
+The business applications have private source repositories. Their case studies
+explain the design and its limits without sharing guest records or the company's
+configuration. You can download and run the CLI.
 
 ## How I work
 
-For the camping projects, I describe what reception needs, set priorities and
-check the results against agreed requirements. I use Claude Code and Codex for
-implementation and verification. My part in these AI-assisted projects is
-coordinating the work and reviewing what gets delivered.
+For the camping projects, my role is to describe what reception needs, set
+priorities and review the results against agreed requirements. I coordinate
+development using AI tools, including Claude Code and Codex, for implementation
+and verification.
 
-Troubleshooting can mean following a problem from the screen through the API and
-database to an import script or deployment setting. I use targeted tests and
-reproducible builds to check changes, and keep setup instructions and known failure
-cases in the documentation. The project notes distinguish what was tested from
-what still needs checking.
+A problem visible on screen can start in the API, database, an import script or
+a deployment setting. I use targeted tests and reproducible builds to check
+changes, and document how to run the applications, known failure cases and
+anything that still needs checking.
 
 I also document the parts that affect guest data: optional consent, retention,
 access permissions and deletion. The [privacy and reliability notes](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/engineering-practices.md)
-explain the mechanisms in the code and their limits. They don't claim a complete
+explain what the code does and where its limits are. They are not a complete
 legal audit.

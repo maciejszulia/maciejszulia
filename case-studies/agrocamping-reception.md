@@ -1,47 +1,43 @@
-# AgroCamping Reception: keeping daily operations consistent
+# AgroCamping Reception
 
-**Context:** an internal application for a family campsite, connecting incoming reservations and enquiries with reception work and financial records.
+AgroCamping Reception is an internal application for a family campsite. It connects incoming reservations and enquiries with reception work and financial records.
 
-**My role:** I coordinate development for my parents' family business, turning day-to-day needs into requirements, priorities, and acceptance criteria. I use AI coding tools for implementation and verification. My contribution is described as coordinated, AI-assisted delivery, without claiming sole manual authorship of the codebase.
+I coordinate development for my parents' campsite. My role is to turn day-to-day needs into requirements, set priorities and define acceptance criteria. I use AI coding tools for implementation and verification.
 
-**Stack:** TypeScript, Astro, Express, Prisma, SQLite, Python, shell tooling, GitLab CI.
+The stack is TypeScript, Astro, Express, Prisma, SQLite, Python, shell tooling, and GitLab CI.
 
-## Engineering decisions behind the interface
+## Repeated imports
 
-### Incoming data must not undo staff decisions
+A reservation may arrive again after reception staff have assigned its pitch or changed its price. Import identities and replay rules preserve those staff changes. They also prevent cancellation and checkout states from regressing, and leave timestamps unchanged when there is no meaningful update. Rejection records persist field and error codes without copying guest descriptions.
 
-A reservation can be imported more than once, while reception staff may already have assigned its pitch or changed its price. Import identity and replay rules preserve reception-owned data, keep cancellation and checkout states from regressing, and avoid timestamp changes when nothing meaningful changed. Invalid items have durable rejection records containing field/error codes rather than copied guest descriptions.
+## Payment evidence
 
-### A payment label is not enough evidence to settle a stay
+The integration treats booking status and financial evidence separately. It identifies payment movements by account, live/test mode, movement kind, and provider identity, then checks the relationships between receipts, refunds, and reversals. Supported ledger amounts are recorded in integer minor currency units. Conflicting evidence, incomplete chains, and closed accounting shifts require reconciliation.
 
-The integration distinguishes booking status from financial evidence. It identifies payment movements across account, live/test mode, movement kind, and provider identity; checks receipt/refund/reversal relationships; and records supported ledger amounts in integer minor units. Conflicting evidence, incomplete chains, and closed accounting shifts require reconciliation rather than silently appearing settled.
+## Deletion across systems
 
-### Deletion must survive the next synchronisation
+Deleting an imported website enquiry queues an erasure request for the website in the same database transaction. The integration retries until it receives acknowledgement. It keeps the enquiry's import identity so that an old feed cannot recreate the deleted enquiry.
 
-Deleting an imported website enquiry queues an upstream erasure request in the same database transaction. The integration retries until acknowledgement and retains the enquiry's import identity so that an old feed cannot recreate it. This is a concrete privacy mechanism across system boundaries, not just a delete button.
+## Access and release recovery
 
-### Access and recovery belong in the backend
-
-User identity is checked against current database state. Endpoint authorization defaults to deny and distinguishes staff, finance, and owner resources. The delivery scripts use immutable releases, writer locks, database backups, and release-specific health checks, with explicit recovery after failed activation or migration.
+The backend checks user identity against the current database state. Endpoint authorization defaults to deny, with separate access for staff, finance, and owner resources. Delivery scripts use immutable releases, writer locks, database backups, and health checks for the selected release. They include recovery procedures for failed activation or migration.
 
 ## Privacy mechanisms and their limits
 
-| Mechanism | What it does — and what it does not establish |
-|---|---|
-| Backend access control | Restricts operational actions; it does not anonymise stored data. |
-| Enquiry deletion propagation | Requests erasure in the connected website and prevents stale-feed recreation; it does not purge every mailbox, backup, log, or processor copy. |
-| Review follow-up consent | Requires the stored consent flag and explicit feature enablement; it does not prove the quality of the original consent notice or a complete withdrawal process. |
-| Backup rotation | Removes older local backup files according to a configured age; this is not a comprehensive guest-data retention policy. |
-| Reduced logging and rejection records | Avoids copying some sensitive content; identifiers and free-text business records can remain personal data. |
+| Mechanism | Scope | Limit |
+|---|---|---|
+| Backend access control | Restricts operational actions. | Does not anonymise stored data. |
+| Enquiry deletion propagation | Requests erasure in the website and prevents an old feed from recreating the enquiry. | Does not purge every mailbox, backup, log, or processor copy. |
+| Review follow-up consent | Requires a stored consent flag and explicit feature enablement. | The mechanism alone does not establish notice quality or a complete withdrawal process. |
+| Backup rotation | Removes older local backup files according to a configured age. | Covers backup age, not a comprehensive guest-data retention policy. |
+| Reduced logging and rejection records | Avoids copying some sensitive content. | Identifiers and free-text business records can remain personal data. |
 
-The retained identities are not presented as irreversible anonymisation. No legal certification or blanket GDPR-compliance claim is made. Rights to source code and third-party components are separate from privacy controls.
+Retaining an import identity does not establish irreversible anonymisation. This case study makes no claim of legal certification or GDPR compliance. Rights to the source code and third-party components are separate from privacy controls.
 
-## What this project lets me discuss in an interview
+## Interview topics
 
-- Turning a reception problem into an acceptance criterion that can be checked.
-- Investigating why a repeated import changed an operational record.
-- Distinguishing a failed integration from incomplete financial evidence.
-- Reviewing a change through tests, migration checks, and release recovery scenarios.
-- Explaining which privacy controls exist and where operational policy is still required.
+In an interview, I can discuss how a reception problem becomes a checkable acceptance criterion and how to investigate a record changed by a repeated import. Other topics include distinguishing integration failures from incomplete payment evidence, and reviewing changes through tests, migration checks, and release recovery scenarios. The privacy controls also provide examples of where operational policy is still required.
 
-**Review boundary:** this case study summarises the private development-source snapshot reviewed on 21 September 2026. It includes no guest records, production credentials, or claim of measured scale. Source access and a synthetic-data demonstration can be arranged separately. Test coverage is described by purpose; no unverified pass count or production uptime is claimed.
+## Review scope
+
+This case study covers the private development-source snapshot reviewed on 21 September 2026. Guest records and production credentials are excluded. The description explains what the tests cover; it makes no claims about measured scale, unverified pass counts, or production uptime. Source access and a demonstration using synthetic data can be arranged separately.
