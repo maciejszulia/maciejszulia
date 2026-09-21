@@ -3,6 +3,10 @@
 **Wsparcie techniczne · wdrożenia · aplikacje webowe · Linux**  
 Olsztyn · Pełny etat, zdalnie lub hybrydowo
 
+**Projekty:** [Strona i API rezerwacji](case-studies/agrocamping-website.md)
+· [System recepcji](case-studies/agrocamping-reception.md)
+· [CLI do uruchomienia](https://gitlab.com/maciejszulia/rogalddl-scraper)
+
 Łączę obsługę codziennych procesów firmy z rozwojem oprogramowania. Współpracuję
 w rodzinnej firmie AgroCamping Olsztyn i koordynuję rozwój strony, integracji
 rezerwacyjnej oraz narzędzi recepcji. Mam również wcześniejsze doświadczenie

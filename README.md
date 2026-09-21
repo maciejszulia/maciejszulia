@@ -3,6 +3,10 @@
 **Technical support · implementation · web applications · Linux operations**  
 Olsztyn, Poland · Open to full-time remote or hybrid work
 
+**Selected projects:** [Website & booking API](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md)
+· [Reception system](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md)
+· [Runnable CLI](https://gitlab.com/maciejszulia/rogalddl-scraper)
+
 I connect day-to-day business operations with software delivery. I work with my
 family's accommodation business, AgroCamping Olsztyn, and coordinate the development
 of its website, booking integration and reception tools. My earlier commercial
