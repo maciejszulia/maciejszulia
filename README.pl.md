@@ -1,49 +1,55 @@
 # Maciej Szulia
 
-**Wsparcie techniczne · wdrożenia · aplikacje webowe · Linux**  
-Olsztyn · Pełny etat, zdalnie lub hybrydowo
+Wsparcie techniczne · wdrożenia · aplikacje webowe · Linux  
+Olsztyn · Szukam pracy na pełny etat, zdalnie lub hybrydowo
 
-**Projekty:** [Strona i API rezerwacji](case-studies/agrocamping-website.md)
+[Strona i API rezerwacji](case-studies/agrocamping-website.md)
 · [System recepcji](case-studies/agrocamping-reception.md)
-· [CLI do uruchomienia](https://gitlab.com/maciejszulia/rogalddl-scraper)
+· [CLI](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
-Łączę obsługę codziennych procesów firmy z rozwojem oprogramowania. Współpracuję
-w rodzinnej firmie AgroCamping Olsztyn i koordynuję rozwój strony, integracji
-rezerwacyjnej oraz narzędzi recepcji. Mam również wcześniejsze doświadczenie
-komercyjne na stanowiskach juniorskich w frontendzie, e-commerce i systemach CMS,
-w tym PrestaShop i InsERT Sello.
+Pomagam przy rezerwacjach i korespondencji z gośćmi w AgroCamping Olsztyn,
+kempingu moich rodziców. Koordynuję też rozwój strony i aplikacji recepcji.
+Oba projekty AgroCamping powstały z potrzeby obsługi rezerwacji,
+uporządkowania danych i rozwiązywania problemów z integracjami.
+
+Mam również doświadczenie komercyjne na stanowiskach juniorskich we frontendzie,
+e-commerce i systemach CMS. Pracowałem między innymi z PrestaShop i InsERT Sello.
 
 [English](README.md) · [LinkedIn](https://www.linkedin.com/in/maciej-szulia)
-· [Działająca strona](https://www.agrocamping.eu/)
+· [Strona AgroCamping](https://www.agrocamping.eu/)
 
-## Wybrane projekty
+## Projekty
 
-| Projekt | Co warto zobaczyć | Materiały |
-| --- | --- | --- |
-| **Strona AgroCamping i API rezerwacji** | Serwis PL/EN/DE, oddzielne API, ponawianie powiadomień, ograniczanie danych w formularzu i analityce | [Opis techniczny](case-studies/agrocamping-website.md) · [Strona](https://www.agrocamping.eu/) |
-| **System recepcji AgroCamping** | Obsługa rezerwacji, uprawnienia, import odporny na ponowienia i ochrona zapisów operacyjnych | [Opis techniczny](case-studies/agrocamping-reception.md) |
-| **Lokalny katalog metadanych — CLI** | Node.js bez zależności npm, testy offline, walidacja wejścia i możliwość prześledzenia decyzji katalogowania | [Kod i uruchomienie](https://gitlab.com/maciejszulia/rogalddl-scraper) |
+- [Strona AgroCamping i API rezerwacji](case-studies/agrocamping-website.md).
+  Serwis po polsku, angielsku i niemiecku, z osobnym API. W opisie pokazuję drogę
+  rezerwacji do recepcji, obsługę awarii powiadomień oraz ograniczanie danych
+  zapisywanych przez formularz i analitykę.
+- [System recepcji](case-studies/agrocamping-reception.md).
+  Aplikacja do codziennej pracy z rezerwacjami. Opis obejmuje między innymi
+  ponowny import rezerwacji bez nadpisywania zmian pracownika, uprawnienia
+  użytkowników i przywracanie działania po nieudanym wdrożeniu.
+- [Lokalny katalog metadanych, CLI](https://gitlab.com/maciejszulia/rogalddl-scraper).
+  Mniejszy projekt w Node.js, bez zależności npm. Można pobrać kod i sprawdzić,
+  dlaczego wpis został zachowany, połączony z innym albo odrzucony. Testy działają
+  offline, a README opisuje instalację i sprawdzanie danych wejściowych.
 
-Kod aplikacji biznesowych pozostaje prywatny. Publiczne opisy pokazują architekturę,
-decyzje i ograniczenia. Projekt CLI można samodzielnie pobrać i sprawdzić lokalnie.
+Kod systemów firmowych pozostaje prywatny. Publiczne opisy pokazują ich budowę
+i ograniczenia, bez danych gości ani konfiguracji używanej w firmie. Projekt CLI
+można samodzielnie uruchomić.
 
-## Mocne strony, których nie widać na ekranie
+## Jak pracuję
 
-- Przekładanie rzeczywistej pracy recepcji i kontaktu z gośćmi na wymagania aplikacji.
-- Szukanie przyczyn błędów na styku interfejsu, API, bazy danych i integracji.
-- Odbiór zmian na podstawie testów i dowodów, z jawnym opisem tego, czego nie sprawdzono.
-- Dokumentowanie uruchomienia, ograniczeń i postępowania przy awarii.
-- Rozróżnianie wdrożonego zabezpieczenia prywatności od deklaracji pełnej zgodności prawnej.
+W projektach kempingu opisuję potrzeby recepcji, ustalam kolejność zmian i sprawdzam
+wynik względem przyjętych wymagań. Korzystam z Claude Code i Codex przy implementacji
+oraz weryfikacji. Mój udział w tych projektach obejmuje kierowanie pracą wspieraną
+przez AI i odbiór tego, co powstało.
 
-[Mechanizmy ochrony danych i ich granice](engineering-practices.md)
+Przy szukaniu przyczyny błędu trzeba czasem przejść od ekranu przez API i bazę danych
+aż do skryptu importu albo ustawień wdrożenia. Zmiany sprawdzam testami i powtarzalnym
+procesem budowania aplikacji. W dokumentacji zostawiam instrukcje uruchomienia,
+opis znanych problemów i informację o tym, czego jeszcze nie sprawdzono.
 
-## Mój udział
-
-Definiuję wymagania, ustalam priorytety i koordynuję implementację oraz weryfikację
-z wykorzystaniem agentów AI, między innymi Claude Code i Codex. Nie przedstawiam
-całego kodu jako napisanego ręcznie przeze mnie. Projekty powstają dla firmy moich
-rodziców, z którą współpracuję.
-
-Na rozmowie warto prześledzić drogę rezerwacji do recepcji, reakcję na awarię
-powiadomienia albo konkretny test dotyczący danych. Publiczny CLI pozwala dodatkowo
-sprawdzić kod i uruchomić testy bez dostępu do systemów firmy.
+Opisuję też rozwiązania dotyczące danych gości: dobrowolne zgody, czas przechowywania,
+uprawnienia i usuwanie danych. W [notatkach o ochronie danych](engineering-practices.md)
+można przeczytać, co robi kod i jakie są granice tych zabezpieczeń. To opis
+konkretnych mechanizmów, bez deklarowania pełnego audytu prawnego.
