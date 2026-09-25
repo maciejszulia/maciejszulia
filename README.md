@@ -20,7 +20,7 @@ Public website: [agrocamping.eu](https://www.agrocamping.eu/).
 - [Guest data, recovery and licensing](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/engineering-practices.md): consent, retention, access permissions, deletion and rights restrictions, with their limits.
 - [Verification record](verification.md): source snapshots, commands, test results and checks that were not run.
 
-## Source and verification scope
+## Footer
 
 The website and reception source repositories are private. Their public overviews
 describe the implementation without publishing guest records or production
