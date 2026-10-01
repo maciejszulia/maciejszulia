@@ -1,14 +1,16 @@
-# AgroCamping: multilingual website and booking workflow
+# AgroCamping website and booking API
 
-AgroCamping is a campsite in Olsztyn, Poland. This project combines its Polish, English and German website with a separate booking API and an integration with the reception application.
+A Polish, English and German website for AgroCamping Olsztyn, with a separate booking API and reception integration. Shared booking rules, transactional writes and a persistent notification outbox coordinate requests across those boundaries.
 
-The stack is Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe and GitLab CI. The public website is [agrocamping.eu](https://www.agrocamping.eu/).
+Next.js · React · TypeScript · Node.js · MySQL/MariaDB · Stripe · GitLab CI
 
-## The booking problem
+[Public website](https://www.agrocamping.eu/) · [Project index](../README.md) · [Verification record](../verification.md)
+
+## Operational context
 
 The form has to connect what guests see with what reception can confirm. Dates, party size, pitch type, electricity and payment state all affect that decision. Guests also need clear outcomes when they submit a request again, a payment is interrupted or an email cannot be delivered.
 
-## How the system handles bookings
+## Engineering decisions
 
 | Part of the system | What it does |
 | --- | --- |
@@ -29,6 +31,10 @@ A short-lived browser draft saves selected stay fields. It excludes contact deta
 Authenticated API operations replace selected reservation identity fields, clear related notification payloads and remove stored idempotency responses. A separate retention sweep removes old replay records and reduces older notification and attribution data. Erased enquiries leave a tombstone so that a retry cannot recreate the enquiry under the same key.
 
 These controls cover specific data paths and do not establish blanket GDPR compliance. The retention sweep does not automatically delete every guest record. Payment data held by providers, delivered email, backups and the reception application have separate data lifecycles. This review does not verify their complete erasure or the organisational and legal arrangements around them.
+
+## Verification
+
+The recorded checks cover a static export, the API TypeScript build, selected API suites and HTTP responses from the local preview. [Results, source revisions and test limits](../verification.md) are recorded separately from the source review.
 
 ## Source and review scope
 

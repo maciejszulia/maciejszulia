@@ -1,10 +1,12 @@
 # AgroCamping Reception
 
-AgroCamping Reception is an internal campsite application. It connects incoming reservations and enquiries with reception work and financial records.
+An internal campsite application connecting reservations and guest enquiries with reception work and financial records. Repeated imports preserve staff-set pitches and prices, while financial reconciliation and release recovery address incomplete or failed operations.
 
-The stack is TypeScript, Astro, Express, Prisma, SQLite, Python, shell tooling, and GitLab CI.
+TypeScript · Astro · Express · Prisma · SQLite · Python · shell tooling · GitLab CI
 
-## Repeated imports
+[Project index](../README.md) · [Verification record](../verification.md)
+
+## Imports that preserve reception decisions
 
 A reservation may arrive again after reception staff have assigned its pitch or changed its price. Import identities and replay rules preserve those staff changes. They also prevent cancellation and checkout states from regressing, and leave timestamps unchanged when there is no meaningful update. Rejection records persist field and error codes without copying guest descriptions.
 
@@ -31,6 +33,10 @@ The backend checks user identity against the current database state. Endpoint au
 | Reduced logging and rejection records | Avoids copying some sensitive content. | Identifiers and free-text business records can remain personal data. |
 
 Retaining an import identity does not establish irreversible anonymisation. This overview makes no claim of legal certification or GDPR compliance. Rights to the source code and third-party components are separate from privacy controls.
+
+## Verification
+
+Recorded checks include backend and frontend tests, copied-schema migrations and authenticated backend/gateway startup using synthetic data with external networking blocked. [Results, source revisions and skipped checks](../verification.md) define the scope of those runs.
 
 ## Source and review scope
 
