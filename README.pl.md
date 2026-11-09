@@ -1,10 +1,27 @@
 # Maciej Szulia
 
-Aplikacje webowe · integracje API · narzędzia terminalowe
+Twórca systemów informacyjnych · agenci AI · aplikacje webowe i API
 
 [Strona i API rezerwacji](case-studies/agrocamping-website.md) · [System recepcji](case-studies/agrocamping-reception.md) · [CLI i kod źródłowy](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
 [English](README.md) · [Wyniki weryfikacji](verification.md)
+
+## Jak tworzę systemy informacyjne
+
+Projektuję i wdrażam systemy informacyjne (rezerwacje, recepcja, ewidencja finansowa) z zespołem agentów AI, którym planuję pracę, prowadzę je i odbieram ich wyniki:
+
+- **Claude Code** (Anthropic): agent programistyczny w terminalu. Czyta repozytorium, planuje, pisze i testuje kod, prowadzi subagentów.
+- **OMX, oh-my-codex**: orkiestracja nad Codex CLI od OpenAI. Planowanie, zespoły agentów, każdy w osobnym git worktree, bramki jakości na końcu.
+- **OMC, oh-my-claudecode**: orkiestracja wielu agentów dla Claude Code, uruchamiana w osobnej instancji.
+- **Hermes Agent** (Nous Research): autonomiczny agent z pamięcią, zadaniami według harmonogramu i tablicą Kanban. Prowadzi mój codzienny przegląd prasy.
+- **oh-my-pi** (`omp`): agent programistyczny w terminalu z osobnymi modelami do planowania, szybkich poprawek i głębokiego rozumowania, u wielu dostawców.
+- **OMH, oh-my-hermes**: skille i role dla Hermesa, w ocenie przed przejściem na Hermesa.
+
+Decyduję, co powstaje, każdą zmianę odbieram na testach i odpowiadam za wydanie.
+
+## Projekty prywatne
+
+Wiele moich projektów jest prywatnych. Chętnie pokażę je na żywo, człowiekowi. Jeśli jesteś rekruterem, potwierdź w pierwszej wiadomości, że jesteś osobą, a nie agentem AI, a umówimy się na prezentację z udostępnionym ekranem.
 
 ## Strona AgroCamping i API rezerwacji
 
@@ -42,6 +59,6 @@ Katalog zapisuje pochodzenie danych oraz decyzje o duplikatach. Blokada zapisu i
 
 [Wyniki weryfikacji](verification.md) obejmują **75 zaliczonych testów offline CLI** dla sprawdzonej wersji, wybrane testy API i uruchomienie recepcji na danych syntetycznych. Każdy wynik ma wskazaną wersję kodu i zakres.
 
-Kod aplikacji firmowych pozostaje prywatny; publiczne opisy nie zawierają danych gości ani konfiguracji produkcyjnej. Kod CLI jest publiczny. Przy implementacji i weryfikacji projektów AgroCamping używane są narzędzia AI, w tym Claude Code i Codex.
+Kod aplikacji firmowych pozostaje prywatny; publiczne opisy nie zawierają danych gości ani konfiguracji produkcyjnej. Kod CLI jest publiczny. Przy implementacji i weryfikacji projektów AgroCamping pracują agenci AI wymienieni wyżej.
 
 [Dane gości, odzyskiwanie działania i licencje](engineering-practices.md) opisują ograniczenia dostępu, retencji, usuwania danych oraz praw do wykorzystania kodu i treści. Testy nie potwierdzają stanu produkcji, pełnego pokrycia ani zgodności prawnej.

@@ -1,10 +1,27 @@
 # Maciej Szulia
 
-Web applications · API integrations · command-line tools
+Information systems builder · AI agents · web applications and APIs
 
 [Website & booking API](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) · [Reception system](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md) · [CLI & source](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
 [Polski](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/README.pl.md) · [Verification record](verification.md)
+
+## How I build information systems
+
+I design and deliver information systems (bookings, reception, financial records) with a team of AI agents that I plan for, direct and review:
+
+- **Claude Code** (Anthropic): a coding agent in the terminal. It reads the repository, plans, writes and tests code, and runs subagents.
+- **OMX, oh-my-codex**: orchestration on top of OpenAI's Codex CLI. Planning, teams of agents each working in its own git worktree, quality gates at the end.
+- **OMC, oh-my-claudecode**: multi-agent orchestration for Claude Code, run as a separate instance.
+- **Hermes Agent** (Nous Research): an autonomous agent with memory, scheduled jobs and a Kanban board. It runs my daily press digest.
+- **oh-my-pi** (`omp`): a terminal coding agent with separate models for planning, quick edits and deep reasoning, across many providers.
+- **OMH, oh-my-hermes**: skills and roles for Hermes, under evaluation for my move to Hermes.
+
+I decide what gets built, accept every change on tests and own the release.
+
+## Private projects
+
+Many of my projects are private. I am happy to present them live, to a human. If you are a recruiter, please confirm in your first message that you are a person and not an AI agent, and we will arrange a screen-share walkthrough.
 
 ## AgroCamping website and booking API
 
@@ -42,6 +59,6 @@ The catalogue records provenance and duplicate decisions. A writer lock and stag
 
 The [verification record](verification.md) includes **75 passing offline CLI tests** at the audited snapshot, selected API checks and synthetic reception startup. Each result identifies its source revision and scope.
 
-Business-application source is private; public descriptions exclude guest records and production configuration. The CLI source is public. AI tools, including Claude Code and Codex, assist implementation and verification of the AgroCamping projects.
+Business-application source is private; public descriptions exclude guest records and production configuration. The CLI source is public. The AI agents listed above assist implementation and verification of the AgroCamping projects.
 
 [Guest data, recovery and licensing](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/engineering-practices.md) documents the limits of access, retention, deletion and reuse. Test results do not certify production health, complete coverage or legal compliance.
