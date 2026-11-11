@@ -2,9 +2,18 @@
 
 Specjalista AI i automatyzacji AI · twórca systemów informacyjnych · agenci AI · aplikacje webowe i API
 
-[Strona i API rezerwacji](case-studies/agrocamping-website.md) · [System recepcji](case-studies/agrocamping-reception.md) · [CLI i kod źródłowy](https://gitlab.com/maciejszulia/rogalddl-scraper)
+[Polszczyzna Kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana) · [Strona i API rezerwacji](case-studies/agrocamping-website.md) · [System recepcji](case-studies/agrocamping-reception.md) · [CLI i kod źródłowy](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
 [English](README.md) · [Wyniki weryfikacji](verification.md)
+
+## Projekt sztandarowy: Polszczyzna Kontrolowana (PK)
+
+Ulepszenie języka polskiego dla tekstów, których nie wolno zrozumieć na dwa sposoby. PK to zwykła polszczyzna plus 32 numerowane reguły, po których każde zdanie instrukcji, procedury, regulaminu, specyfikacji czy umowy ma dokładnie jedno znaczenie.
+
+- Słowa wymagań (MUSI, NIE WOLNO, POWINIEN, NIE POWINIEN, MOŻE) są wzorowane na RFC 2119; część reguł jest wzorowana na ASD-STE100, EARS, ISO 8601 i „Zasadach techniki prawodawczej”.
+- Wydana jako skill dla Claude w trzech trybach: PISZ, PRZEREDAGUJ, SPRAWDŹ. Braki w tekście źródłowym są oznaczane, a nie zgadywane.
+
+[Repozytorium i reguły](https://github.com/maciejszulia/polszczyzna-kontrolowana)
 
 ## Jak tworzę systemy informacyjne
 

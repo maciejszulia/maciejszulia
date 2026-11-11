@@ -2,9 +2,18 @@
 
 AI and AI automation specialist · information systems builder · AI agents · web applications and APIs
 
-[Website & booking API](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) · [Reception system](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md) · [CLI & source](https://gitlab.com/maciejszulia/rogalddl-scraper)
+[Polszczyzna Kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana) · [Website & booking API](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) · [Reception system](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md) · [CLI & source](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
 [Polski](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/README.pl.md) · [Verification record](verification.md)
+
+## Flagship project: Polszczyzna Kontrolowana (PK)
+
+Controlled Polish: an improvement of the Polish language for texts that must not be read two ways. PK is ordinary Polish plus 32 numbered rules, after which every sentence of an instruction, procedure, set of terms, specification or contract has exactly one meaning.
+
+- Requirement keywords (MUSI, NIE WOLNO, POWINIEN, NIE POWINIEN, MOŻE) are modelled on RFC 2119; several rules follow ASD-STE100, EARS, ISO 8601 and the Polish rules of legislative drafting.
+- Published as a Claude skill with three modes: write, rewrite, check. Gaps in the source text are marked, not guessed.
+
+[Repository and rules](https://github.com/maciejszulia/polszczyzna-kontrolowana)
 
 ## How I build information systems
 
