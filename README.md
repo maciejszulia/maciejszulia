@@ -1,6 +1,6 @@
 # Maciej Szulia
 
-Information systems builder · AI agents · web applications and APIs
+AI and AI automation specialist · information systems builder · AI agents · web applications and APIs
 
 [Website & booking API](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) · [Reception system](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md) · [CLI & source](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
@@ -62,3 +62,7 @@ The [verification record](verification.md) includes **75 passing offline CLI tes
 Business-application source is private; public descriptions exclude guest records and production configuration. The CLI source is public. The AI agents listed above assist implementation and verification of the AgroCamping projects.
 
 [Guest data, recovery and licensing](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/engineering-practices.md) documents the limits of access, retention, deletion and reuse. Test results do not certify production health, complete coverage or legal compliance.
+
+## About me
+
+My favourite books: Wittgenstein's *Tractatus Logico-Philosophicus*, set theory and the foundations of logic, graph theory.

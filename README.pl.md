@@ -1,6 +1,6 @@
 # Maciej Szulia
 
-Twórca systemów informacyjnych · agenci AI · aplikacje webowe i API
+Specjalista AI i automatyzacji AI · twórca systemów informacyjnych · agenci AI · aplikacje webowe i API
 
 [Strona i API rezerwacji](case-studies/agrocamping-website.md) · [System recepcji](case-studies/agrocamping-reception.md) · [CLI i kod źródłowy](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
@@ -62,3 +62,7 @@ Katalog zapisuje pochodzenie danych oraz decyzje o duplikatach. Blokada zapisu i
 Kod aplikacji firmowych pozostaje prywatny; publiczne opisy nie zawierają danych gości ani konfiguracji produkcyjnej. Kod CLI jest publiczny. Przy implementacji i weryfikacji projektów AgroCamping pracują agenci AI wymienieni wyżej.
 
 [Dane gości, odzyskiwanie działania i licencje](engineering-practices.md) opisują ograniczenia dostępu, retencji, usuwania danych oraz praw do wykorzystania kodu i treści. Testy nie potwierdzają stanu produkcji, pełnego pokrycia ani zgodności prawnej.
+
+## O mnie
+
+Moje ulubione książki: „Traktat logiczno-filozoficzny” Wittgensteina, teoria mnogości i podstawy logiki, teoria grafów.
