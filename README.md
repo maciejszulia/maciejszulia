@@ -65,4 +65,4 @@ Business-application source is private; public descriptions exclude guest record
 
 ## About me
 
-My favourite books: Wittgenstein's *Tractatus Logico-Philosophicus*, set theory and the foundations of logic, graph theory.
+My favourite books: Wittgenstein's *Tractatus Logico-Philosophicus*, *Podstawy logiki i teorii mnogości* (foundations of logic and set theory) by Murawski and Świrydowicz, graph theory.

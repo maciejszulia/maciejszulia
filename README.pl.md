@@ -65,4 +65,4 @@ Kod aplikacji firmowych pozostaje prywatny; publiczne opisy nie zawierają danyc
 
 ## O mnie
 
-Moje ulubione książki: „Traktat logiczno-filozoficzny” Wittgensteina, teoria mnogości i podstawy logiki, teoria grafów.
+Moje ulubione książki: „Traktat logiczno-filozoficzny” Wittgensteina, „Podstawy logiki i teorii mnogości” Murawskiego i Świrydowicza, teoria grafów.
