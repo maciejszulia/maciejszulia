@@ -1,23 +1,23 @@
 # Maciej Szulia
 
-AI and AI automation specialist · information systems builder · AI agents · web applications and APIs
+Information systems, web applications and APIs. Work automation with AI agents.
 
-[Polszczyzna Kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana) · [Website & booking API](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) · [Reception system](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md) · [CLI & source](https://gitlab.com/maciejszulia/rogalddl-scraper)
+[Polszczyzna Kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana) | [Website & booking API](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) | [Reception system](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md) | [CLI & source](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
-[Polski](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/README.pl.md) · [Verification record](verification.md)
+[Polski](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/README.pl.md) | [Verification record](verification.md)
 
-## Flagship project: Polszczyzna Kontrolowana (PK)
+## Polszczyzna Kontrolowana (PK)
 
-Controlled Polish: an improvement of the Polish language for texts that must not be read two ways. PK is ordinary Polish plus 32 numbered rules, after which every sentence of an instruction, procedure, set of terms, specification or contract has exactly one meaning.
+Controlled Polish for texts that people act on: instructions, procedures, terms, specifications, contracts. PK is ordinary Polish plus 32 numbered rules. Each rule removes one source of sentences that have more than one meaning.
 
 - Requirement keywords (MUSI, NIE WOLNO, POWINIEN, NIE POWINIEN, MOŻE) are modelled on RFC 2119; several rules follow ASD-STE100, EARS, ISO 8601 and the Polish rules of legislative drafting.
 - Published as a Claude skill with three modes: write, rewrite, check. Gaps in the source text are marked, not guessed.
 
 [Repository and rules](https://github.com/maciejszulia/polszczyzna-kontrolowana)
 
-## How I build information systems
+## How I work
 
-I design and deliver information systems (bookings, reception, financial records) with a team of AI agents that I plan for, direct and review:
+I build information systems (bookings, reception, financial records) with AI coding agents. I write the requirements, review the changes and accept them on tests. The tools:
 
 - **Claude Code** (Anthropic): a coding agent in the terminal. It reads the repository, plans, writes and tests code, and runs subagents.
 - **OMX, oh-my-codex**: orchestration on top of OpenAI's Codex CLI. Planning, teams of agents each working in its own git worktree, quality gates at the end.
@@ -25,8 +25,6 @@ I design and deliver information systems (bookings, reception, financial records
 - **Hermes Agent** (Nous Research): an autonomous agent with memory, scheduled jobs and a Kanban board. It runs my daily press digest.
 - **oh-my-pi** (`omp`): a terminal coding agent with separate models for planning, quick edits and deep reasoning, across many providers.
 - **OMH, oh-my-hermes**: skills and roles for Hermes, under evaluation for my move to Hermes.
-
-I decide what gets built, accept every change on tests and own the release.
 
 ## Private projects
 
@@ -40,9 +38,9 @@ A Polish, English and German website with a separate booking API and reception i
 - A persistent outbox tracks notification attempts separately from booking acceptance.
 - Payment callbacks are verified; optional consent and guest-data retention have explicit boundaries.
 
-Next.js · React · TypeScript · Node.js · MySQL/MariaDB · Stripe · GitLab CI
+Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe, GitLab CI
 
-[Technical overview](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) · [Public website](https://www.agrocamping.eu/)
+[Technical overview](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) | [Public website](https://www.agrocamping.eu/)
 
 ## AgroCamping Reception
 
@@ -52,7 +50,7 @@ An internal application connecting reservations and guest enquiries with recepti
 - Receipts, refunds and reversals are reconciled as financial evidence, separately from booking status.
 - Backend permissions, enquiry-deletion propagation and release recovery address operational failure cases.
 
-TypeScript · Astro · Express · Prisma · SQLite · Python · shell tooling · GitLab CI
+TypeScript, Astro, Express, Prisma, SQLite, Python, shell tooling, GitLab CI
 
 [Technical overview](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md)
 

@@ -2,9 +2,9 @@
 
 An internal campsite application connecting reservations and guest enquiries with reception work and financial records. Repeated imports preserve staff-set pitches and prices, while financial reconciliation and release recovery address incomplete or failed operations.
 
-TypeScript · Astro · Express · Prisma · SQLite · Python · shell tooling · GitLab CI
+TypeScript, Astro, Express, Prisma, SQLite, Python, shell tooling, GitLab CI
 
-[Project index](../README.md) · [Verification record](../verification.md)
+[Project index](../README.md) | [Verification record](../verification.md)
 
 ## Imports that preserve reception decisions
 
@@ -42,4 +42,4 @@ Recorded checks include backend and frontend tests, copied-schema migrations and
 
 This overview covers the private development-source snapshot reviewed on 21 September 2026. Guest records and production credentials are excluded. Production configuration and operational health were not verified.
 
-[Project index](../README.md) · [Verification record](../verification.md) · [Guest data, recovery and licensing](../engineering-practices.md)
+[Project index](../README.md) | [Verification record](../verification.md) | [Guest data, recovery and licensing](../engineering-practices.md)

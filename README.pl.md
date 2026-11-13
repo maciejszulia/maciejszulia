@@ -1,23 +1,23 @@
 # Maciej Szulia
 
-Specjalista AI i automatyzacji AI · twórca systemów informacyjnych · agenci AI · aplikacje webowe i API
+Systemy informacyjne, aplikacje webowe i API. Automatyzacja pracy z agentami AI.
 
-[Polszczyzna Kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana) · [Strona i API rezerwacji](case-studies/agrocamping-website.md) · [System recepcji](case-studies/agrocamping-reception.md) · [CLI i kod źródłowy](https://gitlab.com/maciejszulia/rogalddl-scraper)
+[Polszczyzna Kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana) | [Strona i API rezerwacji](case-studies/agrocamping-website.md) | [System recepcji](case-studies/agrocamping-reception.md) | [CLI i kod źródłowy](https://gitlab.com/maciejszulia/rogalddl-scraper)
 
-[English](README.md) · [Wyniki weryfikacji](verification.md)
+[English](README.md) | [Wyniki weryfikacji](verification.md)
 
-## Projekt sztandarowy: Polszczyzna Kontrolowana (PK)
+## Polszczyzna Kontrolowana (PK)
 
-Ulepszenie języka polskiego dla tekstów, których nie wolno zrozumieć na dwa sposoby. PK to zwykła polszczyzna plus 32 numerowane reguły, po których każde zdanie instrukcji, procedury, regulaminu, specyfikacji czy umowy ma dokładnie jedno znaczenie.
+Polszczyzna dla tekstów, według których ktoś działa: instrukcji, procedur, regulaminów, specyfikacji, umów. PK to zwykła polszczyzna plus 32 numerowane reguły. Każda reguła usuwa jedno źródło zdań, które mają więcej niż jedno znaczenie.
 
 - Słowa wymagań (MUSI, NIE WOLNO, POWINIEN, NIE POWINIEN, MOŻE) są wzorowane na RFC 2119; część reguł jest wzorowana na ASD-STE100, EARS, ISO 8601 i „Zasadach techniki prawodawczej”.
 - Wydana jako skill dla Claude w trzech trybach: PISZ, PRZEREDAGUJ, SPRAWDŹ. Braki w tekście źródłowym są oznaczane, a nie zgadywane.
 
 [Repozytorium i reguły](https://github.com/maciejszulia/polszczyzna-kontrolowana)
 
-## Jak tworzę systemy informacyjne
+## Jak pracuję
 
-Projektuję i wdrażam systemy informacyjne (rezerwacje, recepcja, ewidencja finansowa) z zespołem agentów AI, którym planuję pracę, prowadzę je i odbieram ich wyniki:
+Buduję systemy informacyjne (rezerwacje, recepcja, ewidencja finansowa) z agentami AI, które piszą kod. Piszę wymagania, sprawdzam zmiany i odbieram je na testach. Narzędzia:
 
 - **Claude Code** (Anthropic): agent programistyczny w terminalu. Czyta repozytorium, planuje, pisze i testuje kod, prowadzi subagentów.
 - **OMX, oh-my-codex**: orkiestracja nad Codex CLI od OpenAI. Planowanie, zespoły agentów, każdy w osobnym git worktree, bramki jakości na końcu.
@@ -25,8 +25,6 @@ Projektuję i wdrażam systemy informacyjne (rezerwacje, recepcja, ewidencja fin
 - **Hermes Agent** (Nous Research): autonomiczny agent z pamięcią, zadaniami według harmonogramu i tablicą Kanban. Prowadzi mój codzienny przegląd prasy.
 - **oh-my-pi** (`omp`): agent programistyczny w terminalu z osobnymi modelami do planowania, szybkich poprawek i głębokiego rozumowania, u wielu dostawców.
 - **OMH, oh-my-hermes**: skille i role dla Hermesa, w ocenie przed przejściem na Hermesa.
-
-Decyduję, co powstaje, każdą zmianę odbieram na testach i odpowiadam za wydanie.
 
 ## Projekty prywatne
 
@@ -40,9 +38,9 @@ Serwis po polsku, angielsku i niemiecku z osobnym API rezerwacji i integracją z
 - Kolejka outbox rejestruje próby doręczenia powiadomień niezależnie od przyjęcia rezerwacji.
 - Zdarzenia płatności są weryfikowane; dobrowolne zgody i retencja danych mają opisany zakres.
 
-Next.js · React · TypeScript · Node.js · MySQL/MariaDB · Stripe · GitLab CI
+Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe, GitLab CI
 
-[Opis techniczny](case-studies/agrocamping-website.md) · [Publiczna strona](https://www.agrocamping.eu/)
+[Opis techniczny](case-studies/agrocamping-website.md) | [Publiczna strona](https://www.agrocamping.eu/)
 
 ## System recepcji AgroCamping
 
@@ -52,7 +50,7 @@ Wewnętrzna aplikacja łącząca rezerwacje i zapytania gości z obsługą recep
 - Wpłaty, zwroty i odwrócenia zapisów są uzgadniane niezależnie od statusu rezerwacji.
 - Uprawnienia backendu, propagacja usuwania zapytań i odzyskiwanie działania po nieudanym wdrożeniu obejmują konkretne sytuacje awaryjne.
 
-TypeScript · Astro · Express · Prisma · SQLite · Python · narzędzia powłoki · GitLab CI
+TypeScript, Astro, Express, Prisma, SQLite, Python, narzędzia powłoki, GitLab CI
 
 [Opis techniczny](case-studies/agrocamping-reception.md)
 

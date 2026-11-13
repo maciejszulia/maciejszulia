@@ -2,9 +2,9 @@
 
 A Polish, English and German website for AgroCamping Olsztyn, with a separate booking API and reception integration. Shared booking rules, transactional writes and a persistent notification outbox coordinate requests across those boundaries.
 
-Next.js · React · TypeScript · Node.js · MySQL/MariaDB · Stripe · GitLab CI
+Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe, GitLab CI
 
-[Public website](https://www.agrocamping.eu/) · [Project index](../README.md) · [Verification record](../verification.md)
+[Public website](https://www.agrocamping.eu/) | [Project index](../README.md) | [Verification record](../verification.md)
 
 ## Operational context
 
@@ -40,4 +40,4 @@ The recorded checks cover a static export, the API TypeScript build, selected AP
 
 The source is private and proprietary. This overview covers code reviewed on 21 September 2026. Production configuration and operational health were not verified.
 
-[Project index](../README.md) · [Verification record](../verification.md) · [Guest data, recovery and licensing](../engineering-practices.md)
+[Project index](../README.md) | [Verification record](../verification.md) | [Guest data, recovery and licensing](../engineering-practices.md)
