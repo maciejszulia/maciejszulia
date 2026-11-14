@@ -74,7 +74,7 @@ Piszę wymagania, agenci AI piszą kod, a ja odbieram wynik na testach.
 
 Modele według roli: Claude Fable 5.2 prowadzi i orkiestruje agentów, Claude Opus 5.5 pisze kod, DeepSeek V4.1 Flash (wydanie 1017) obsługuje wywołania API, GPT-6 Luna czyta.
 
-Do problemów, które napotykam, wprowadzam rozwiązania oparte na matematyce. Każde rozwiązanie prowadzi do nowych problemów, więc rozwiązanie ma być tak małe, jak się da. Uzasadnienie jest w repozytorium [philosophy](https://github.com/maciejszulia/philosophy). Dlaczego prośbę do AI trzeba zawęzić przed wysłaniem: [notes/why-ai-is-dangerous.pl.md](notes/why-ai-is-dangerous.pl.md).
+Do problemów, które napotykam, wprowadzam rozwiązania oparte na matematyce. Każde rozwiązanie prowadzi do nowych problemów, więc rozwiązanie ma być tak małe, jak się da. Uzasadnienie jest w repozytorium [philosophy](https://github.com/maciejszulia/philosophy). Dlaczego prośba do maszyny jest niebezpieczna: [notes/why-ai-is-dangerous.pl.md](notes/why-ai-is-dangerous.pl.md).
 
 ## Dowody i zakres
 
