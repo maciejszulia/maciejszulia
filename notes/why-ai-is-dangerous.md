@@ -1,8 +1,8 @@
 # Why is a request to a machine dangerous?
 
-What do you get when a machine fulfils your request to the letter?
+A machine is a dangerous technology, because you have to know what you want from it. What you ask for contains results you want and results you do not want.
 
-This note states one thesis about working with a machine. It is built like a chapter of the text [“Perfekcja – koniec ludzkości?”](https://github.com/maciejszulia/philosophy): a phenomenon, a thesis, the weak point of the thesis, questions. The word “machine” covers a program that everyday language calls artificial intelligence (AI).
+This note belongs to the text [“Perfekcja – koniec ludzkości?”](https://github.com/maciejszulia/philosophy). The word “machine” covers a program that everyday language calls artificial intelligence (AI).
 
 ## Terms
 
@@ -30,19 +30,19 @@ $$P = (P \cap C) \cup (P \setminus C) \qquad (1)$$
 - $P \cap C$: the results that satisfy the words and that the person wants;
 - $P \setminus C$: the results that satisfy the words and that the person rejects.
 
-The machine returns one result from the set P. The machine satisfies the words of the request. The machine does not know the set C.
+The machine returns one result $x$ from the set P. The machine satisfies the request, not the intent.
 
-A request is safe in exactly one case:
+A request is safe in exactly one case: every result that satisfies its words is a result the person wants.
 
-$$P \subseteq C \iff P \setminus C = \varnothing \qquad (2)$$
+$$\forall x\ (x \in P \rightarrow x \in C) \iff P \subseteq C \iff P \setminus C = \varnothing \qquad (2)$$
 
-Formula (2) says: every result that satisfies the words is a result the person wants. The golden bread of Midas lies in the part $P \setminus C$. So does 17 °C by the window.
+If the part $P \setminus C$ holds at least one result, the machine can deliver two things at once: exactly what was asked for, and exactly what was not wanted. The golden bread of Midas lies in the part $P \setminus C$.
 
 ## Thesis
 
 **Thesis.** A machine is a dangerous technology because it requires a person to know their own intent.
 
-The strict form: a request is dangerous only if the part $P \setminus C$ holds at least one result. The danger lies in the request, not in the machine.
+The danger lies in the request, not in the machine.
 
 A machine is a solution: it removes the problem of execution. Thesis 2 of the text says that every new solution leads to new problems. The new problem is the intent. A person who handed the execution to a machine is left with one question: what do I want?
 
@@ -50,7 +50,7 @@ Norbert Wiener gave the same warning in 1960[^wiener]. A person who hands a purp
 
 ## What the person does
 
-Narrowing a request takes the three acts of thesis 8 of the same text: an act of will, an act of attention and an act of responsibility. Do the steps in this order:
+The person narrows the request before sending it: states the intent, the limits and the result to reject. Narrowing takes the three acts of thesis 8 of the same text: an act of will, an act of attention and an act of responsibility. Do the steps in this order:
 
 1. Will: write the intent as a state you can check.
 2. Attention: name what the machine must not change.
@@ -62,18 +62,6 @@ Outcome: the part $P \setminus C$ is smaller, and the result of the machine is y
 A wide request: “Clean up the directory.”
 
 A narrowed request: “Delete from the directory `tmp` every `.log` file older than 30 days. Leave every other file unchanged. Print the names of the deleted files.”
-
-## The weak point of the thesis
-
-A person does not know the whole set C before seeing a result. A person learns part of their own intent only when they see a result they reject. The set P also depends on how the machine reads the words of the request. The person does not see that reading. Formula (2) therefore states a condition that the person cannot check before the request.
-
-## Questions
-
-1. Recall a request that a machine fulfilled to the letter and against your intent. Which word was too wide?
-2. Write down three results you reject before you send your next request. How many minutes did that take?
-3. Midas got exactly what he asked for. Who answers for the golden bread: Midas or the god?
-4. You ask a person and a machine for the same thing. Which of them will ask what you really want?
-5. Is there a request for which the part $P \setminus C$ is empty? Give one.
 
 ## Related
 

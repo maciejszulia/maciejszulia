@@ -1,10 +1,10 @@
 # Dlaczego prośba do maszyny jest niebezpieczna?
 
-Co dostajesz, gdy maszyna spełnia twoją prośbę co do słowa?
+Maszyna jest niebezpieczną technologią, bo człowiek, który prosi, POWINIEN wiedzieć, czego chce. Prośba zawiera wyniki, których człowiek chce. Ta sama prośba zawiera wyniki, które człowiek odrzuca.
 
-Ta notatka stawia 1 tezę o pracy z maszyną. Notatka jest zapisana w Polszczyźnie Kontrolowanej (PK). Notatka ma budowę rozdziału z tekstu [„Perfekcja – koniec ludzkości?”](https://github.com/maciejszulia/philosophy): zjawisko, teza, słabe miejsce tezy, pytania.
+Notatka jest zapisana w Polszczyźnie Kontrolowanej (PK) i należy do tekstu [„Perfekcja – koniec ludzkości?”](https://github.com/maciejszulia/philosophy).
 
-> Legenda: PK to polski z regułami, po których zdanie ma 1 znaczenie. „Albo” znaczy: dokładnie 1 z członów. POWINIEN to zalecenie. NIE WOLNO to zakaz. Słowo „Teza” oznacza twierdzenie bez pomiaru. Słowo „maszyna” obejmuje program, który język potoczny nazywa sztuczną inteligencją (AI).
+> Legenda: PK to polski z regułami, po których zdanie ma 1 znaczenie. POWINIEN to zalecenie. NIE WOLNO to zakaz. Słowo „Teza” oznacza twierdzenie bez pomiaru. Słowo „maszyna” obejmuje program, który język potoczny nazywa sztuczną inteligencją (AI).
 
 ## Słownik
 
@@ -32,19 +32,19 @@ $$P = (P \cap C) \cup (P \setminus C) \qquad (1)$$
 - $P \cap C$: wyniki, które spełniają słowa prośby i których człowiek chce;
 - $P \setminus C$: wyniki, które spełniają słowa prośby i które człowiek odrzuca.
 
-Maszyna zwraca 1 wynik ze zbioru P. Maszyna spełnia słowa prośby. Maszyna nie zna zbioru C.
+Maszyna zwraca 1 wynik $x$ ze zbioru P. Maszyna spełnia prośbę, a nie zamiar.
 
-Prośba jest bezpieczna dokładnie w 1 przypadku:
+Prośba jest bezpieczna dokładnie w 1 przypadku: każdy wynik, który spełnia słowa prośby, jest wynikiem, którego człowiek chce.
 
-$$P \subseteq C \iff P \setminus C = \varnothing \qquad (2)$$
+$$\forall x\ (x \in P \rightarrow x \in C) \iff P \subseteq C \iff P \setminus C = \varnothing \qquad (2)$$
 
-Wzór (2) mówi: każdy wynik, który spełnia słowa prośby, jest wynikiem, którego człowiek chce. Złoty chleb Midasa leży w części $P \setminus C$. Temperatura 17 °C przy oknie też leży w tej części.
+Jeżeli część $P \setminus C$ zawiera co najmniej 1 wynik, to maszyna potrafi dostarczyć 2 rzeczy naraz. Maszyna dostarcza dokładnie to, o co człowiek prosił. Maszyna dostarcza też dokładnie to, czego człowiek nie chciał. Złoty chleb Midasa leży w części $P \setminus C$.
 
 ## Teza
 
 **Teza.** Maszyna jest niebezpieczną technologią, bo wymaga od człowieka wiedzy o własnym zamiarze.
 
-Zapis ścisły tezy: tylko jeżeli część $P \setminus C$ zawiera co najmniej 1 wynik, prośba jest niebezpieczna. Niebezpieczeństwo leży więc w prośbie, a nie w maszynie.
+Niebezpieczeństwo leży więc w prośbie, a nie w maszynie.
 
 Maszyna jest rozwiązaniem: maszyna usuwa problem wykonania. Teza 2 z tekstu „Perfekcja – koniec ludzkości?” mówi, że każde nowe rozwiązanie prowadzi do nowych problemów. Nowym problemem jest zamiar. Człowiek, który oddał wykonanie maszynie, zostaje z pytaniem: czego chcę?
 
@@ -52,7 +52,7 @@ Norbert Wiener ostrzegał przed tym samym w 1960 r.[^wiener]. Człowiek, który 
 
 ## Co robi człowiek
 
-Zawężenie prośby ma 3 akty z tezy 8 tego samego tekstu: akt woli, akt uwagi i akt odpowiedzialności. Wykonaj każdy krok w tej kolejności:
+Człowiek zawęża prośbę przed wysłaniem: podaje zamiar, granice i wynik, który odrzuca. Zawężenie ma 3 akty z tezy 8 tego samego tekstu: akt woli, akt uwagi i akt odpowiedzialności. Wykonaj każdy krok w tej kolejności:
 
 1. Wola: zapisz zamiar jako stan, który potrafisz sprawdzić.
 2. Uwaga: nazwij to, czego maszynie NIE WOLNO zmienić.
@@ -64,18 +64,6 @@ Wynik: część $P \setminus C$ jest mniejsza, a wynik maszyny jest twoim wyniki
 Przykład prośby szerokiej: „Posprzątaj katalog.”
 
 Przykład prośby zawężonej: „Usuń z katalogu `tmp` każdy plik `.log` starszy niż 30 dób. Zostaw każdy inny plik bez zmian. Wypisz nazwy usuniętych plików.”
-
-## Słabe miejsce tezy
-
-Człowiek nie zna całego zbioru C przed zobaczeniem wyniku. Człowiek poznaje część własnego zamiaru dopiero wtedy, gdy widzi wynik, który odrzuca. Zbiór P zależy też od tego, jak maszyna czyta słowa prośby. Człowiek nie widzi tego czytania. Wzór (2) opisuje więc warunek, którego człowiek nie potrafi sprawdzić przed prośbą.
-
-## Pytania
-
-1. Przypomnij sobie prośbę, którą maszyna spełniła co do słowa i wbrew zamiarowi. Które słowo było za szerokie?
-2. Wypisz 3 wyniki, które odrzucasz, zanim wyślesz kolejną prośbę. Ile minut trwało wypisanie?
-3. Midas dostał dokładnie to, o co prosił. Kto odpowiada za złoty chleb: Midas albo bóg?
-4. Prosisz o to samo człowieka i maszynę. Który wykonawca zapyta, czego naprawdę chcesz?
-5. Czy istnieje prośba, dla której część $P \setminus C$ jest pusta? Podaj taką prośbę.
 
 ## Decyzje i braki
 
