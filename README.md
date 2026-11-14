@@ -26,6 +26,15 @@ I build information systems (bookings, reception, financial records) with AI cod
 - **oh-my-pi** (`omp`): a terminal coding agent with separate models for planning, quick edits and deep reasoning, across many providers.
 - **OMH, oh-my-hermes**: skills and roles for Hermes, under evaluation for my move to Hermes.
 
+My favourite language models, by role:
+
+- **Lead orchestrator of agents**: Claude Fable 5.2.
+- **Coding**: Claude Opus 5.5.
+- **API**: DeepSeek V4.1 Flash (release 1017).
+- **Reading**: GPT-6 Luna.
+
+I actively apply mathematics-based solutions to the problems I encounter. Each solution connects directly to a new problem area.
+
 ## Private projects
 
 Many of my projects are private. I am happy to present them live, to a human. If you are a recruiter, please confirm in your first message that you are a person and not an AI agent, and we will arrange a screen-share walkthrough.
@@ -40,7 +49,9 @@ A Polish, English and German website with a separate booking API and reception i
 
 Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe, GitLab CI
 
-[Technical overview](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) | [Public website](https://www.agrocamping.eu/)
+In real use: guests of a working accommodation business send booking requests through this website. The business and its guest reviews are on Google Maps.
+
+[Technical overview](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-website.md) | [Public website](https://www.agrocamping.eu/) | [The business on Google Maps](https://www.google.com/maps?cid=12963305277474159664)
 
 ## AgroCamping Reception
 
@@ -53,6 +64,33 @@ An internal application connecting reservations and guest enquiries with recepti
 TypeScript, Astro, Express, Prisma, SQLite, Python, shell tooling, GitLab CI
 
 [Technical overview](https://gitlab.com/maciejszulia/maciejszulia/-/blob/main/case-studies/agrocamping-reception.md)
+
+## Small services built for my own needs
+
+Around the two systems I have built small services (microservices) for my own needs. Each one is a separate process with one job.
+
+Reception, runit services:
+
+- **Panel backend, gateway and health probe**: three separate services; the probe checks the panel every 30 seconds.
+- **Mail sync**: imports guest mail from Gmail into the panel and counts consecutive failures per step.
+- **Arrival notifier**: sends a push notification about arrivals through ntfy.
+- **Maintenance**: periodic database backup.
+- **Watcher**: checks panel health, free disk space, the website API, backup age and certificate expiry; it notifies only when a state changes.
+- **Certificate renewal**: a daily loop renews the TLS certificate of the panel.
+- **Weather**: fetches weather data into a cache.
+
+Website, GitLab CI and Docker:
+
+- **Weekly security job**: dependency audit (npm audit, osv-scanner), secret scan (gitleaks), TLS check (testssl), HTTP header check (MDN Observatory) and link check (lychee).
+- **Preview deployment**: a CI job deploys a static preview of the website to a local Kubernetes cluster (k3d).
+- **Uptime monitoring**: Gatus in Docker with my own configuration and alerts.
+
+Workstation:
+
+- **Fan control**: a fan curve with hysteresis for the laptop.
+- **Resource watchdog**: measures system resources and writes a report; it does not kill any process.
+- **TLS front for a local SearXNG instance**: a small Node.js service.
+- **Off-site backup**: encrypts the latest database backup with GPG (AES-256) and stores it outside the machine.
 
 ## Metadata catalogue CLI
 

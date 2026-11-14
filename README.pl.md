@@ -26,6 +26,15 @@ Buduję systemy informacyjne (rezerwacje, recepcja, ewidencja finansowa) z agent
 - **oh-my-pi** (`omp`): agent programistyczny w terminalu z osobnymi modelami do planowania, szybkich poprawek i głębokiego rozumowania, u wielu dostawców.
 - **OMH, oh-my-hermes**: skille i role dla Hermesa, w ocenie przed przejściem na Hermesa.
 
+Moje ulubione modele językowe, według roli:
+
+- **Prowadzący orkiestrator agentów**: Claude Fable 5.2.
+- **Kod**: Claude Opus 5.5.
+- **API**: DeepSeek V4.1 Flash (wydanie 1017).
+- **Czytanie**: GPT-6 Luna.
+
+Do problemów, które napotykam, aktywnie wprowadzam rozwiązania oparte na matematyce. Każde rozwiązanie łączy się bezpośrednio z nową problematyką.
+
 ## Projekty prywatne
 
 Wiele moich projektów jest prywatnych. Chętnie pokażę je na żywo, człowiekowi. Jeśli jesteś rekruterem, potwierdź w pierwszej wiadomości, że jesteś osobą, a nie agentem AI, a umówimy się na prezentację z udostępnionym ekranem.
@@ -40,7 +49,9 @@ Serwis po polsku, angielsku i niemiecku z osobnym API rezerwacji i integracją z
 
 Next.js, React, TypeScript, Node.js, MySQL/MariaDB, Stripe, GitLab CI
 
-[Opis techniczny](case-studies/agrocamping-website.md) | [Publiczna strona](https://www.agrocamping.eu/)
+W prawdziwym użyciu: przez tę stronę goście działającego obiektu noclegowego wysyłają zapytania o pobyt. Obiekt i opinie gości są w Mapach Google.
+
+[Opis techniczny](case-studies/agrocamping-website.md) | [Publiczna strona](https://www.agrocamping.eu/) | [Obiekt w Mapach Google](https://www.google.com/maps?cid=12963305277474159664)
 
 ## System recepcji AgroCamping
 
@@ -53,6 +64,33 @@ Wewnętrzna aplikacja łącząca rezerwacje i zapytania gości z obsługą recep
 TypeScript, Astro, Express, Prisma, SQLite, Python, narzędzia powłoki, GitLab CI
 
 [Opis techniczny](case-studies/agrocamping-reception.md)
+
+## Małe usługi na własne potrzeby
+
+Wokół obu systemów stworzyłem małe usługi (mikroserwisy) na własne potrzeby. Każda usługa to osobny proces z jednym zadaniem.
+
+Recepcja, usługi pod runit:
+
+- **Backend panelu, gateway i sonda zdrowia**: trzy osobne usługi; sonda sprawdza panel co 30 sekund.
+- **Synchronizacja poczty**: importuje pocztę gości z Gmaila do panelu i liczy kolejne błędy każdego kroku.
+- **Powiadomienia o przyjazdach**: wysyła powiadomienie push o przyjazdach przez ntfy.
+- **Konserwacja**: okresowa kopia bazy danych.
+- **Watcher**: sprawdza zdrowie panelu, wolne miejsce na dysku, API strony, wiek kopii bazy i ważność certyfikatu; powiadamia tylko przy zmianie stanu.
+- **Odnawianie certyfikatu**: dzienna pętla odnawia certyfikat TLS panelu.
+- **Pogoda**: pobiera dane pogodowe do cache.
+
+Strona, GitLab CI i Docker:
+
+- **Cotygodniowy job bezpieczeństwa**: audyt zależności (npm audit, osv-scanner), skan sekretów (gitleaks), test TLS (testssl), test nagłówków HTTP (MDN Observatory) i test linków (lychee).
+- **Podgląd wdrożenia**: job CI wdraża statyczny podgląd strony do lokalnego klastra Kubernetes (k3d).
+- **Monitoring dostępności**: Gatus w Dockerze z własną konfiguracją i alertami.
+
+Stacja robocza:
+
+- **Sterowanie wiatrakiem**: krzywa obrotów z histerezą dla laptopa.
+- **Watchdog zasobów**: mierzy zasoby systemu i zapisuje raport; nie zabija żadnego procesu.
+- **Front TLS dla lokalnej instancji SearXNG**: mała usługa w Node.js.
+- **Kopia poza maszyną**: szyfruje najnowszą kopię bazy przez GPG (AES-256) i zapisuje ją poza maszyną.
 
 ## Lokalny katalog metadanych, CLI
 
