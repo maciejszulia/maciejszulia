@@ -8,18 +8,24 @@ Senior full-stack developer i AI lead. Systemy informacyjne, aplikacje webowe i 
 
 | Repozytorium | Co zawiera | Technologie |
 |---|---|---|
-| [polszczyzna-kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana) | Polszczyzna Kontrolowana (PK): 32 numerowane reguły, po których zdanie ma jedno znaczenie. Zbiór reguł, skill dla Claude i praca z pomiarami. | Python, LaTeX |
-| [claude-code-skills](https://github.com/maciejszulia/claude-code-skills) | Sześć skilli dla Claude Code, każdy z diagramem: pamięć sesji w Markdownie, przeładowanie reguł, zespół subagentów, zlecenie dla workera Codex, drift check, PK. | Markdown, Python |
-| [tractatus-skills](https://github.com/maciejszulia/tractatus-skills) | Dwa skille na podstawie „Traktatu” Wittgensteina: warunki prawdziwości prośby i tabela prawdy dla twierdzenia. | Markdown |
-| [millennium-models](https://github.com/maciejszulia/millennium-models) | Minimalne modele 7 problemów milenijnych: 3 modele, 14 sprawdzianów liczbowych, 18 rysunków, strona interaktywna. Plany dowodu z nazwanym brakującym krokiem, bez dowodów. | Python |
-| [function-generated-arithmetics](https://github.com/maciejszulia/function-generated-arithmetics) | Arytmetyki generowane funkcją: dziesięć generatorów, klasyfikacja na grupę, monoid albo półgrupę, weryfikacja liczbowa, jeden wynik negatywny. Prace po polsku i po angielsku. | Python, LaTeX |
-| [nowe-dzialania-matematyczne](https://github.com/maciejszulia/nowe-dzialania-matematyczne) | p-dodawanie: 1 działanie z parametrem p daje sumę, połączenie równoległe, przeciwprostokątną, minimum i maksimum. 39 testów. | Python |
-| [rogalddl-scraper](https://github.com/maciejszulia/rogalddl-scraper) | CLI w Node.js, które buduje lokalny katalog metadanych. Bez zależności npm, 75 testów offline dla sprawdzonej wersji, odzyskiwanie po przerwanym zapisie. | Node.js |
-| [agro-kubernetes](https://github.com/maciejszulia/agro-kubernetes) | Laboratorium Kubernetes na 2 telefonach Xperia bez roota: gość QEMU w Termuxie, zmierzony stan, K3s zablokowany przez brak 3 opcji jądra. 28 testów. | Python, Bash, QEMU, K3s |
-| [dwm](https://github.com/maciejszulia/dwm), [dwmblocks](https://github.com/maciejszulia/dwmblocks), [dwm-bar-scripts](https://github.com/maciejszulia/dwm-bar-scripts), [st](https://github.com/maciejszulia/st) | Mój pulpit X11: forki suckless dwm 6.8 i st 0.9.3, klikalny zwijany pasek stanu i jego skrypty (alerty pogodowe, CPU, GPU, limity AI). | C, Shell |
-| [philosophy](https://github.com/maciejszulia/philosophy) | Tekst filozoficzny w polszczyźnie kontrolowanej: rozwiązania i problemy, spokój i chaos, człowiek i maszyna. | Markdown |
-| [traktat-ludzko-sztuczno-inteligencyjny](https://github.com/maciejszulia/traktat-ludzko-sztuczno-inteligencyjny) | 145 tez o granicy między człowiekiem a maszyną, w numeracji „Traktatu”. | Markdown, LaTeX |
-| [samowystarczalny-system-do-zycia](https://github.com/maciejszulia/samowystarczalny-system-do-zycia) | Projekt samowystarczalnego gospodarstwa o powierzchni 4,27 ha: żywność, ciepło, woda, energia off-grid, model 3D. | Python |
+| [polszczyzna-kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana) | Polszczyzna Kontrolowana (PK): 32 numerowane reguły, po których zdanie ma jedno znaczenie. Zbiór reguł, skill dla Claude i praca z pomiarami. | Python, LaTeX. |
+| [claude-code-skills](https://github.com/maciejszulia/claude-code-skills) | 8 skilli dla Claude Code: pamięć sesji w Markdownie, przeładowanie reguł, zespół subagentów, zlecenie dla workera Codex, drift check, handoff lidera, reguły README, PK. Każdy skill ma diagram. | Markdown, Python. |
+| [tractatus-skills](https://github.com/maciejszulia/tractatus-skills) | Dwa skille na podstawie „Traktatu” Wittgensteina: warunki prawdziwości prośby i tabela prawdy dla twierdzenia. | Markdown. |
+| [millennium-models](https://github.com/maciejszulia/millennium-models) | Minimalne modele 7 problemów milenijnych: 3 modele, 14 sprawdzianów liczbowych, 18 rysunków, strona interaktywna. Plany dowodu z nazwanym brakującym krokiem, bez dowodów. | Python. |
+| [function-generated-arithmetics](https://github.com/maciejszulia/function-generated-arithmetics) | Arytmetyki generowane funkcją: dziesięć generatorów, klasyfikacja na grupę, monoid albo półgrupę, weryfikacja liczbowa, jeden wynik negatywny. Prace po polsku i po angielsku. | Python, LaTeX. |
+| [nowe-dzialania-matematyczne](https://github.com/maciejszulia/nowe-dzialania-matematyczne) | p-dodawanie: 1 działanie z parametrem p daje sumę, połączenie równoległe, przeciwprostokątną, minimum i maksimum. 39 testów. | Python. |
+| [rogalddl-scraper](https://github.com/maciejszulia/rogalddl-scraper) | CLI w Node.js, które buduje lokalny katalog metadanych. Bez zależności npm, 75 testów offline dla sprawdzonej wersji, odzyskiwanie po przerwanym zapisie. | Node.js. |
+| [agro-kubernetes](https://github.com/maciejszulia/agro-kubernetes) | Laboratorium Kubernetes na 2 telefonach Xperia bez roota: gość QEMU w Termuxie, zmierzony stan, K3s zablokowany przez brak 3 opcji jądra. 28 testów. | Python, Bash, QEMU, K3s. |
+| [dwm](https://github.com/maciejszulia/dwm), [dwmblocks](https://github.com/maciejszulia/dwmblocks), [dwm-bar-scripts](https://github.com/maciejszulia/dwm-bar-scripts), [st](https://github.com/maciejszulia/st) | Mój pulpit X11: forki suckless dwm w wersji 6.8 i st w wersji 0.9.3. Klikalny zwijany pasek stanu i skrypty paska (alerty pogodowe, CPU, GPU, limity AI). | C, Shell. |
+| [philosophy](https://github.com/maciejszulia/philosophy) | Tekst filozoficzny w polszczyźnie kontrolowanej: rozwiązania i problemy, spokój i chaos, człowiek i maszyna. | Markdown. |
+| [traktat-ludzko-sztuczno-inteligencyjny](https://github.com/maciejszulia/traktat-ludzko-sztuczno-inteligencyjny) | 145 tez o granicy między człowiekiem a maszyną, w numeracji „Traktatu”. | Markdown, LaTeX. |
+| [samowystarczalny-system-do-zycia](https://github.com/maciejszulia/samowystarczalny-system-do-zycia) | Projekt samowystarczalnego gospodarstwa o powierzchni 4,27 ha: żywność, ciepło, woda, energia off-grid, model 3D. | Python. |
+| [job-search-agent](https://github.com/maciejszulia/job-search-agent) | Narzędzia i metoda szukania pracy z agentem AI: zbieranie ofert, dla każdej oferty 1 CV i 1 wiadomość, ledger zgłoszeń, statystyki bez nazw. Dokumentacja jest w PK. | Python. |
+| [neurophify](https://github.com/maciejszulia/neurophify) | Graf wiedzy w 3D w kształcie mózgu. Program czyta plik graph.json z graphify albo katalog notatek w Markdownie. Program używa Pythona z biblioteką standardową i biblioteki 3d-force-graph. | Python, 3d-force-graph. |
+| [pk-rewriter](https://github.com/maciejszulia/pk-rewriter) | Lokalne modele Qwen przepisują polskie instrukcje na PK. Linter pklint sprawdza każdy wynik. Repo zawiera ewaluację modeli, adapter LoRA trenowany na procesorze i serwer MCP. | Python, Ollama. |
+| [arytmetyki-generowane-funkcyjnie](https://github.com/maciejszulia/arytmetyki-generowane-funkcyjnie) | Arytmetyki generowane funkcyjnie (rachunek nie-Newtonowski): modele w Pythonie, testy aksjomatów, wykresy, artykuł w LaTeX, demo w MATLAB-ie. | Python, LaTeX, MATLAB. |
+| [tpfas](https://github.com/maciejszulia/tpfas) | Notatka o arytmetyce nie-Newtonowskiej z członem synergii: operator przemienny i niełączny; źródło LaTeX i PDF. | LaTeX. |
+| [silverbullet](https://github.com/maciejszulia/silverbullet) | Fork SilverBulleta z 2 bibliotekami Space Lua: „Decision Inbox” dodaje przycisk odpowiedzi, a „Local AI” zawiera konfigurację dla Ollamy. | Space Lua. |
 
 ## Systemy prywatne w prawdziwym użyciu
 
@@ -35,9 +41,9 @@ TypeScript, Astro, Express, Prisma, SQLite, Python, narzędzia powłoki, GitLab 
 
 [Opis techniczny](case-studies/agrocamping-reception.md)
 
-Kod obu systemów jest prywatny. Projekty prywatne pokazuję na żywo, człowiekowi. Jeśli jesteś rekruterem, napisz w pierwszej wiadomości, że jesteś osobą, a nie agentem AI, a umówimy się na prezentację z udostępnionym ekranem.
+Kod obu systemów jest prywatny. Projekty prywatne pokazuję na żywo, człowiekowi. Jeżeli jesteś rekruterem, to napisz w pierwszej wiadomości, że jesteś osobą, a nie agentem AI, a umówimy się na prezentację z udostępnionym ekranem.
 
-## Małe usługi wokół tych systemów
+## Usługi wokół tych systemów
 
 Każda usługa to osobny proces z jednym zadaniem.
 
@@ -61,7 +67,7 @@ Stacja robocza:
 
 - **Sterowanie wiatrakiem**: krzywa obrotów z histerezą dla laptopa.
 - **Watchdog zasobów**: mierzy zasoby systemu i zapisuje raport; nie zabija żadnego procesu.
-- **Front TLS dla lokalnej instancji SearXNG**: mała usługa w Node.js.
+- **Front TLS dla lokalnej instancji SearXNG**: usługa w Node.js.
 - **Kopia poza maszyną**: szyfruje najnowszą kopię bazy przez GPG (AES-256) i zapisuje ją poza maszyną.
 
 ## Jak pracuję
@@ -70,14 +76,14 @@ Piszę wymagania, agenci AI piszą kod, a ja odbieram wynik na testach.
 
 - **Claude Code** (Anthropic): agent programistyczny w terminalu. Czyta repozytorium, planuje, pisze i testuje kod, prowadzi subagentów.
 - **OMX, oh-my-codex**: orkiestracja nad Codex CLI od OpenAI. Planowanie, zespoły agentów, każdy w osobnym git worktree, bramki jakości na końcu.
-- **OMC, oh-my-claudecode**: orkiestracja wielu agentów dla Claude Code, uruchamiana w osobnej instancji.
+- **OMC, oh-my-claudecode**: orkiestracja agentów dla Claude Code, uruchamiana w osobnej instancji.
 - **Hermes Agent** (Nous Research): autonomiczny agent z pamięcią, zadaniami według harmonogramu i tablicą Kanban. Prowadzi codzienny przegląd prasy.
-- **oh-my-pi** (`omp`): agent programistyczny w terminalu z osobnymi modelami do planowania, szybkich poprawek i głębokiego rozumowania, u wielu dostawców.
+- **oh-my-pi** (`omp`): agent programistyczny w terminalu z osobnymi modelami do planowania, szybkich poprawek i głębokiego rozumowania, u różnych dostawców.
 - **OMH, oh-my-hermes**: skille i role dla Hermesa, w ocenie.
 
-Modele według roli: Claude Fable 5.2 prowadzi i orkiestruje agentów, Claude Opus 5.5 pisze kod, DeepSeek V4.1 Flash (wydanie 1017) obsługuje wywołania API, GPT-6 Luna czyta.
+Modele według roli: „Claude Fable 5.2” prowadzi i orkiestruje agentów, „Claude Opus 5.5” pisze kod, „DeepSeek V4.1 Flash” (wydanie 1017) obsługuje wywołania API, „GPT-6 Luna” czyta.
 
-Do problemów, które napotykam, wprowadzam rozwiązania oparte na matematyce. Każde rozwiązanie prowadzi do nowych problemów, więc rozwiązanie ma być tak małe, jak się da. Uzasadnienie jest w repozytorium [philosophy](https://github.com/maciejszulia/philosophy). Dlaczego prośba do maszyny jest niebezpieczna: [notes/why-ai-is-dangerous.pl.md](notes/why-ai-is-dangerous.pl.md).
+Do problemów, które napotykam, wprowadzam rozwiązania oparte na matematyce. Każde rozwiązanie prowadzi do nowych problemów, więc rozwiązanie ma być możliwie najmniejsze. Uzasadnienie jest w repozytorium [philosophy](https://github.com/maciejszulia/philosophy). Dlaczego prośba do maszyny jest niebezpieczna: [notes/why-ai-is-dangerous.pl.md](notes/why-ai-is-dangerous.pl.md).
 
 ## Dowody i zakres
 
