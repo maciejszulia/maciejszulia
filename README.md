@@ -1,6 +1,6 @@
 # Maciej Szulia
 
-Information systems, web applications and APIs. Work automation with AI agents.
+Senior Full-Stack Developer & AI Lead. Information systems, web applications and APIs; work automation with AI agents.
 
 [Polski](README.pl.md)
 
