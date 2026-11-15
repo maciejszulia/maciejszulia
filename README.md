@@ -72,7 +72,7 @@ I write the requirements, AI coding agents write the code, and I accept the resu
 - **oh-my-pi** (`omp`): a terminal coding agent with separate models for planning, quick edits and deep reasoning, across many providers.
 - **OMH, oh-my-hermes**: skills and roles for Hermes, under evaluation.
 
-Models by role: Claude Fable 5.2 leads and orchestrates the agents, Claude Opus 5.5 writes code, DeepSeek V4.1 Flash (release 1017) serves API calls, GPT-6 Luna reads.
+Models by role: Claude Fable 5.2 leads and orchestrates the agents, Claude Opus 5.5 writes code, DeepSeek V4.1 Flash (release 1017) serves API calls, Sonnet 5.5 / GPT-6 Luna reads.
 
 I apply mathematics to the problems I meet. Each solution leads to new problems, so I keep a solution as small as it can be. The reasoning is in [philosophy](https://github.com/maciejszulia/philosophy). Why a request to a machine is dangerous: [notes/why-ai-is-dangerous.md](notes/why-ai-is-dangerous.md).
 
