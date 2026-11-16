@@ -16,6 +16,7 @@ Senior Full-Stack Developer & AI Lead. Information systems, web applications and
 | [polszczyzna-kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana)<br>[![CI](https://github.com/maciejszulia/polszczyzna-kontrolowana/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maciejszulia/polszczyzna-kontrolowana/actions/workflows/ci.yml) | Controlled Polish (PK): 32 numbered rules that leave each sentence one meaning. A rule set, a Claude skill and a paper with measurements. | Python, LaTeX |
 | [neurophify](https://github.com/maciejszulia/neurophify)<br>[![CI](https://github.com/maciejszulia/neurophify/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maciejszulia/neurophify/actions/workflows/ci.yml) | Knowledge graph in 3D, shaped like a brain: reads graphify graph.json or a Markdown folder and writes an interactive page, a turning SVG and an STL model for a README. Release v1.3.0, container image, [live demo](https://maciejszulia.github.io/neurophify/). | Python, 3d-force-graph |
 | [tractatus-skills](https://github.com/maciejszulia/tractatus-skills) | Two skills after Wittgenstein's Tractatus: truth-conditions of a request and a truth table for a claim. | Markdown |
+| [book-skills](https://github.com/maciejszulia/book-skills) | Six skills that turn five C++ books and four mathematics books into checklists for writing and reviewing code. | Markdown |
 | [silverbullet](https://github.com/maciejszulia/silverbullet) | SilverBullet fork with two Space Lua libraries: Decision Inbox reply button and Local AI config for Ollama. | Space Lua |
 
 ### Systems and tools
@@ -109,6 +110,27 @@ How the agents are kept in check:
 - **Order ledger**: each order I give is recorded with its time, its evidence and a completion percentage.
 
 I apply mathematics to the problems I meet. Each solution leads to new problems, so I keep a solution as small as it can be. The reasoning is in [philosophy](https://github.com/maciejszulia/philosophy). Why a request to a machine is dangerous: [notes/why-ai-is-dangerous.md](notes/why-ai-is-dangerous.md).
+
+## Languages
+
+Share of code by language in my 67 repositories on GitHub (24 public, 43 private), measured on 2026-11-16 with GitHub Linguist, in bytes of code.
+
+| Language | Share | What I use it for |
+|---|---|---|
+| Jupyter Notebook | 30.9 % | University coursework. Notebooks store their outputs, so the byte count overstates the code. |
+| HTML | 29.3 % | Generated documents: CVs and reports of the job-search project, pages of the reception panel. |
+| TypeScript | 12.7 % | The AgroCamping reception panel (Astro, Express, Prisma) and the booking website (Next.js, React). |
+| JavaScript | 10.5 % | The booking API in Node.js, website scripts and the rogalddl-scraper CLI. |
+| Python | 8.7 % | Tools and research: the Controlled Polish linter and pk-rewriter, neurophify, hooks and supervision of AI agents, mathematical models, a farm design model, job-offer collectors. |
+| Astro | 2.5 % | Front end of the reception panel. |
+| Shell | 1.9 % | Operations: deploys, backups, runit services, status-bar scripts. |
+| C | 1.2 % | dwm and st: suckless code with my patches. |
+| TeX | 0.8 % | Papers: Controlled Polish, function-generated arithmetics, tpfas. |
+| CSS, SCSS | 0.8 % | Styles of the website, the reception panel and the CV page. |
+
+The remaining 0.6 % is Java and Prolog (coursework), MATLAB and Lean (the mathematics repositories), PL/pgSQL (the farm design database), Mermaid, Roff, Makefile and Dockerfile.
+
+Not counted: 2 forks and 1 private coursework repository with a committed Python environment (37.6 MB of Python). With that repository Python would reach 61.4 %.
 
 ## Evidence and scope
 

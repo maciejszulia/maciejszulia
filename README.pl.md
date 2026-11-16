@@ -16,6 +16,7 @@ Senior full-stack developer i AI lead. Systemy informacyjne, aplikacje webowe i 
 | [polszczyzna-kontrolowana](https://github.com/maciejszulia/polszczyzna-kontrolowana)<br>[![CI](https://github.com/maciejszulia/polszczyzna-kontrolowana/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maciejszulia/polszczyzna-kontrolowana/actions/workflows/ci.yml) | Polszczyzna Kontrolowana (PK): 32 numerowane reguły, po których zdanie ma jedno znaczenie. Zbiór reguł, skill dla Claude i praca z pomiarami. | Python, LaTeX. |
 | [neurophify](https://github.com/maciejszulia/neurophify)<br>[![CI](https://github.com/maciejszulia/neurophify/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maciejszulia/neurophify/actions/workflows/ci.yml) | Graf wiedzy w 3D w kształcie mózgu. Program czyta plik graph.json z graphify albo katalog notatek w Markdownie. Program zapisuje interaktywną stronę, obracający się rysunek SVG i model STL do README. Repo ma wydanie w wersji 1.3.0, obraz kontenera i [demo na żywo](https://maciejszulia.github.io/neurophify/). | Python, 3d-force-graph. |
 | [tractatus-skills](https://github.com/maciejszulia/tractatus-skills) | Dwa skille na podstawie „Traktatu” Wittgensteina: warunki prawdziwości prośby i tabela prawdy dla twierdzenia. | Markdown. |
+| [book-skills](https://github.com/maciejszulia/book-skills) | 6 skilli: 5 książek o C++ oraz 4 książki matematyczne jako listy kontrolne do pisania kodu i do przeglądu kodu. | Markdown. |
 | [silverbullet](https://github.com/maciejszulia/silverbullet) | Fork SilverBulleta z 2 bibliotekami Space Lua: „Decision Inbox” dodaje przycisk odpowiedzi, a „Local AI” zawiera konfigurację dla Ollamy. | Space Lua. |
 
 ### Systemy i narzędzia
@@ -109,6 +110,27 @@ Jak pilnuję agentów:
 - **Rejestr poleceń**: każde moje polecenie ma w rejestrze godzinę, dowód i procent wykonania.
 
 Do problemów, które napotykam, wprowadzam rozwiązania oparte na matematyce. Każde rozwiązanie prowadzi do nowych problemów, więc rozwiązanie ma być możliwie najmniejsze. Uzasadnienie jest w repozytorium [philosophy](https://github.com/maciejszulia/philosophy). Dlaczego prośba do maszyny jest niebezpieczna: [notes/why-ai-is-dangerous.pl.md](notes/why-ai-is-dangerous.pl.md).
+
+## Języki
+
+Udział języków w kodzie 67 moich repozytoriów na GitHubie (24 publiczne, 43 prywatne). Pomiar: GitHub Linguist, bajty kodu, 2026-11-16.
+
+| Język | Udział | Zastosowanie |
+|---|---|---|
+| Jupyter Notebook | 30,9 % | Zajęcia na studiach. Notebook zapisuje wyniki, więc liczba bajtów zawyża ilość kodu. |
+| HTML | 29,3 % | Dokumenty generowane: CV i raporty projektu szukania pracy, strony panelu recepcji. |
+| TypeScript | 12,7 % | Panel recepcji AgroCamping (Astro, Express, Prisma) oraz serwis rezerwacji (Next.js, React). |
+| JavaScript | 10,5 % | API rezerwacji w Node.js, skrypty serwisu oraz CLI rogalddl-scraper. |
+| Python | 8,7 % | Narzędzia i badania: linter Polszczyzny Kontrolowanej, pk-rewriter, neurophify, hooki i nadzór agentów AI, modele matematyczne, model gospodarstwa, kolektory ofert pracy. |
+| Astro | 2,5 % | Frontend panelu recepcji. |
+| Shell | 1,9 % | Operacje: deploy, kopie zapasowe, usługi runit, skrypty paska statusu. |
+| C | 1,2 % | dwm oraz st: kod suckless z moimi patchami. |
+| TeX | 0,8 % | Prace: Polszczyzna Kontrolowana, arytmetyki generowane funkcją, tpfas. |
+| CSS, SCSS | 0,8 % | Style serwisu, panelu recepcji oraz strony CV. |
+
+Pozostałe 0,6 % to Java oraz Prolog (zajęcia na studiach), MATLAB oraz Lean (repozytoria matematyczne), PL/pgSQL (baza projektu gospodarstwa), Mermaid, Roff, Makefile oraz Dockerfile.
+
+Pomiar pomija 2 forki oraz 1 prywatne repozytorium ze studiów, które zawiera wgrane środowisko Pythona (37,6 MB kodu Pythona). Z tym repozytorium udział Pythona wynosi 61,4 %.
 
 ## Dowody i zakres
 
