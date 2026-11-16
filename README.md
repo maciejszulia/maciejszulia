@@ -1,6 +1,9 @@
 # Maciej Szulia
 
-Senior Full-Stack Developer & AI Lead. Information systems, web applications and APIs; metaprogramming tools; work automation with AI agents.
+Data engeneering, metaprogramming tools, work automation & AI agents.
+Senior Full-Stack Developer & AI Lead. Information systems, web applications & APIs; 
+Small-scale farmer & agritourism host
+
 
 [Polski](README.pl.md)
 
@@ -144,4 +147,6 @@ CV: https://maciejszulia.github.io
 
 maciej.szulia@gmail.com
 
-As a human, I have will, attention and responsibility.
+As a human, I have will, attention and responsibility. 
+Hobbies: Psychics, philosophy and humanism. 
+Favourite book: John Taylor's „Black Holes: The End of the Universe?”
