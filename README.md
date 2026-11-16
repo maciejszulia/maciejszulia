@@ -153,4 +153,6 @@ As a human, I have will, attention and responsibility.
 
 Hobbies: Psychics, philosophy and humanism. 
 
-Favourite book: John Taylor's „Black Holes: The End of the Universe?”
+Favourite book: John Taylor's „Black Holes: The End of the Universe?” 
+
+Favourite math: Probability and Statistics.
