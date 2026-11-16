@@ -1,7 +1,9 @@
 # Maciej Szulia
 
 Data engeneering, metaprogramming tools, work automation & AI agents.
+
 Senior Full-Stack Developer & AI Lead. Information systems, web applications & APIs; 
+
 Small-scale farmer & agritourism host
 
 
@@ -148,5 +150,7 @@ CV: https://maciejszulia.github.io
 maciej.szulia@gmail.com
 
 As a human, I have will, attention and responsibility. 
+
 Hobbies: Psychics, philosophy and humanism. 
+
 Favourite book: John Taylor's „Black Holes: The End of the Universe?”
