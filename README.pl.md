@@ -1,6 +1,6 @@
 # Maciej Szulia
 
-Senior full-stack developer i AI lead. Systemy informacyjne, aplikacje webowe i API; narzędzia metaprogramistyczne; automatyzacja pracy z agentami AI.
+Full-stack developer poziomu mid i inżynier AI. Systemy informacyjne, aplikacje webowe i API; narzędzia metaprogramistyczne; automatyzacja pracy z agentami AI.
 
 [English](README.md)
 

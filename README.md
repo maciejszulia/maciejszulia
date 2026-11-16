@@ -2,7 +2,7 @@
 
 Data engeneering, metaprogramming tools, work automation & AI agents.
 
-Senior Full-Stack Developer & AI Lead. Information systems, web applications & APIs; 
+Mid-level Full-Stack Developer & AI Engineer. Information systems, web applications & APIs; 
 
 Small-scale farmer & agritourism host
 
