@@ -78,3 +78,24 @@ Workstation:
 - **Hermes Agent** (Nous Research): an autonomous agent with memory, scheduled jobs and a Kanban board. It runs a daily press digest.
 - **oh-my-pi** (`omp`): a terminal coding agent with separate models for planning, quick edits and deep reasoning, across many providers.
 - **OMH, oh-my-hermes**: skills and roles for Hermes, under evaluation.
+
+## Languages
+
+Share of code by language in my 67 repositories on GitHub (24 public, 43 private), measured on 2026-11-16 with GitHub Linguist, in bytes of code.
+
+| Language | Share | What I use it for |
+|---|---|---|
+| Jupyter Notebook | 30.9 % | University coursework. Notebooks store their outputs, so the byte count overstates the code. |
+| HTML | 29.3 % | Generated documents: CVs and reports of the job-search project, pages of the reception panel. |
+| TypeScript | 12.7 % | The AgroCamping reception panel (Astro, Express, Prisma) and the booking website (Next.js, React). |
+| JavaScript | 10.5 % | The booking API in Node.js, website scripts and the rogalddl-scraper CLI. |
+| Python | 8.7 % | Tools and research: the Controlled Polish linter and pk-rewriter, neurophify, hooks and supervision of AI agents, mathematical models, a farm design model, job-offer collectors. |
+| Astro | 2.5 % | Front end of the reception panel. |
+| Shell | 1.9 % | Operations: deploys, backups, runit services, status-bar scripts. |
+| C | 1.2 % | dwm and st: suckless code with my patches. |
+| TeX | 0.8 % | Papers: Controlled Polish, function-generated arithmetics, tpfas. |
+| CSS, SCSS | 0.8 % | Styles of the website, the reception panel and the CV page. |
+
+The remaining 0.6 % is Java and Prolog (coursework), MATLAB and Lean (the mathematics repositories), PL/pgSQL (the farm design database), Mermaid, Roff, Makefile and Dockerfile.
+
+Not counted: 2 forks and 1 private coursework repository with a committed Python environment (37.6 MB of Python). With that repository Python would reach 61.4 %.

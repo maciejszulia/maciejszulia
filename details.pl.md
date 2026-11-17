@@ -78,3 +78,24 @@ Stacja robocza:
 - **Hermes Agent** (Nous Research): autonomiczny agent z pamięcią, zadaniami według harmonogramu i tablicą Kanban. Prowadzi codzienny przegląd prasy.
 - **oh-my-pi** (`omp`): agent programistyczny w terminalu z osobnymi modelami do planowania, szybkich poprawek i głębokiego rozumowania, u różnych dostawców.
 - **OMH, oh-my-hermes**: skille i role dla Hermesa, w ocenie.
+
+## Języki
+
+Udział języków w kodzie 67 moich repozytoriów na GitHubie (24 publiczne, 43 prywatne). Pomiar: GitHub Linguist, bajty kodu, 2026-11-16.
+
+| Język | Udział | Zastosowanie |
+|---|---|---|
+| Jupyter Notebook | 30,9 % | Zajęcia na studiach. Notebook zapisuje wyniki, więc liczba bajtów zawyża ilość kodu. |
+| HTML | 29,3 % | Dokumenty generowane: CV i raporty projektu szukania pracy, strony panelu recepcji. |
+| TypeScript | 12,7 % | Panel recepcji AgroCamping (Astro, Express, Prisma) oraz serwis rezerwacji (Next.js, React). |
+| JavaScript | 10,5 % | API rezerwacji w Node.js, skrypty serwisu oraz CLI rogalddl-scraper. |
+| Python | 8,7 % | Narzędzia i badania: linter Polszczyzny Kontrolowanej, pk-rewriter, neurophify, hooki i nadzór agentów AI, modele matematyczne, model gospodarstwa, kolektory ofert pracy. |
+| Astro | 2,5 % | Frontend panelu recepcji. |
+| Shell | 1,9 % | Operacje: deploy, kopie zapasowe, usługi runit, skrypty paska statusu. |
+| C | 1,2 % | dwm oraz st: kod suckless z moimi patchami. |
+| TeX | 0,8 % | Prace: Polszczyzna Kontrolowana, arytmetyki generowane funkcją, tpfas. |
+| CSS, SCSS | 0,8 % | Style serwisu, panelu recepcji oraz strony CV. |
+
+Pozostałe 0,6 % to Java oraz Prolog (zajęcia na studiach), MATLAB oraz Lean (repozytoria matematyczne), PL/pgSQL (baza projektu gospodarstwa), Mermaid, Roff, Makefile oraz Dockerfile.
+
+Pomiar pomija 2 forki oraz 1 prywatne repozytorium ze studiów, które zawiera wgrane środowisko Pythona (37,6 MB kodu Pythona). Z tym repozytorium udział Pythona wynosi 61,4 %.
