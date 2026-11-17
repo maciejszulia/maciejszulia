@@ -26,7 +26,7 @@ I write the requirements, AI agents write the code, and I accept the result on t
 
 ## More
 
-[Every repository, service and tool](details.md) | [Code by language](details.md#languages) | [Verification record](verification.md) | [Guest data and licensing](engineering-practices.md) | [Why a request to a machine is dangerous](notes/why-ai-is-dangerous.md) | [Philosophy](https://github.com/maciejszulia/philosophy)
+[How my models share the work](https://github.com/maciejszulia/claude-code-skills/blob/main/docs/model-routing.md) | [Every repository, service and tool](details.md) | [Code by language](details.md#languages) | [Verification record](verification.md) | [Guest data and licensing](engineering-practices.md) | [Why a request to a machine is dangerous](notes/why-ai-is-dangerous.md) | [Philosophy](https://github.com/maciejszulia/philosophy)
 
 ## Contact
 

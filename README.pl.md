@@ -21,7 +21,7 @@ Piszę wymagania, agenci AI piszą kod, a ja odbieram wynik na testach. 2 sesje 
 
 ## Więcej
 
-[Każde repozytorium, usługa i narzędzie](details.pl.md) | [Kod według języków](details.pl.md#języki) | [Zapis weryfikacji](verification.md) | [Dane gości i licencje](engineering-practices.md) | [Dlaczego prośba do maszyny jest niebezpieczna](notes/why-ai-is-dangerous.pl.md) | [Filozofia](https://github.com/maciejszulia/philosophy)
+[Jak moje modele dzielą pracę](https://github.com/maciejszulia/claude-code-skills/blob/main/docs/model-routing.pl.md) | [Każde repozytorium, usługa i narzędzie](details.pl.md) | [Kod według języków](details.pl.md#języki) | [Zapis weryfikacji](verification.md) | [Dane gości i licencje](engineering-practices.md) | [Dlaczego prośba do maszyny jest niebezpieczna](notes/why-ai-is-dangerous.pl.md) | [Filozofia](https://github.com/maciejszulia/philosophy)
 
 ## Kontakt
 
