@@ -5,7 +5,7 @@ its tests run in a container with no network, a review comment only for a defect
 
 Python, Docker, git (`merge-tree`, `archive`), GitHub CLI
 
-[pr-sandbox](https://github.com/maciejszulia/pr-sandbox) | [Controlled English](https://github.com/maciejszulia/controlled-english) | [Project index](../README.md)
+[pullrequest-sandbox](https://github.com/maciejszulia/pullrequest-sandbox) | [Controlled English](https://github.com/maciejszulia/controlled-english) | [Project index](../README.md)
 
 ## Context
 
@@ -47,7 +47,7 @@ flowchart TD
 - A candidate is not a finding. I post only after I reproduce the failure on the newest `main` and find the cause.
 - `merge-bisect` finds the commit on `main` after which a merged test fails, and `train.py` merges many pull requests
   locally, tests them once and drops the one that breaks a test. Graphs of both runs and of the merges on `main` that
-  break open pull requests: [pr-sandbox, Graphs](https://github.com/maciejszulia/pr-sandbox#graphs).
+  break open pull requests: [pullrequest-sandbox, Graphs](https://github.com/maciejszulia/pullrequest-sandbox#graphs).
 
 ## Results
 
@@ -61,7 +61,7 @@ First sweep, `main` at `dde82f27`, 2026-11-23, 86 minutes on a ThinkPad T470p:
 | candidates triaged: real defects / false positives | 4 / 1 |
 
 Other reviewers had already reported 3 of the 4 real defects. The false positive came from my tool (the container had
-no git repository) and is fixed in pr-sandbox.
+no git repository) and is fixed in pullrequest-sandbox.
 
 ## What I contributed
 

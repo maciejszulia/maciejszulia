@@ -17,7 +17,7 @@ Kod 2 pierwszych systemów jest prywatny. Pokazuję go na żywo, człowiekowi.
 
 ## Narzędzia dla programistów i teksty techniczne
 
-- **[pr-sandbox](https://github.com/maciejszulia/pr-sandbox)**: uruchamia kod niezaufanego repozytorium i testuje otwarte pull requesty scalone z `main`, w kontenerach Docker bez sieci. [Opis przypadku: 1667 pull requestów w 1 przebiegu](case-studies/leonida-merge-sweep.md) (po angielsku)
+- **[pullrequest-sandbox](https://github.com/maciejszulia/pullrequest-sandbox)**: uruchamia kod niezaufanego repozytorium i testuje otwarte pull requesty scalone z `main`, w kontenerach Docker bez sieci. [Opis przypadku: 1667 pull requestów w 1 przebiegu](case-studies/leonida-merge-sweep.md) (po angielsku)
 - **[controlled-english](https://github.com/maciejszulia/controlled-english)**: Controlled English (CE), reguły, po których zdanie po angielsku ma jedno znaczenie; dla specyfikacji, pull requestów i briefów agentów; skill dla Claude.
 - **[tractatus-skills](https://github.com/maciejszulia/tractatus-skills)**: skille Claude Code, które wypisują, co musi być prawdą, zanim agent zacznie pracę i zanim zgłosi „zrobione”.
 - **Open source**: pull requesty, review z krokami do odtworzenia i propozycja narzędzi w [ItsNotRexed/Leonida](https://github.com/ItsNotRexed/Leonida), repozytorium z 4188 otwartymi pull requestami (2026-11-23).

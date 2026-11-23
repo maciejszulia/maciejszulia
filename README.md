@@ -22,7 +22,7 @@ The code of the first 2 systems is private. I show it live, to a person.
 
 ## Developer tools and technical writing
 
-- **[pr-sandbox](https://github.com/maciejszulia/pr-sandbox)**: runs untrusted repository code and tests open pull requests merged with `main`, in Docker containers with no network. [Case study: 1,667 pull requests in one sweep](case-studies/leonida-merge-sweep.md)
+- **[pullrequest-sandbox](https://github.com/maciejszulia/pullrequest-sandbox)**: runs untrusted repository code and tests open pull requests merged with `main`, in Docker containers with no network. [Case study: 1,667 pull requests in one sweep](case-studies/leonida-merge-sweep.md)
 - **[controlled-english](https://github.com/maciejszulia/controlled-english)**: Controlled English (CE), rules that leave each English sentence one meaning, for specs, pull requests and agent briefs; a Claude skill.
 - **[tractatus-skills](https://github.com/maciejszulia/tractatus-skills)**: Claude Code skills that list what has to be true before an agent starts and before it reports "done".
 - **Open source**: pull requests, reviews with steps to reproduce and a tool proposal in [ItsNotRexed/Leonida](https://github.com/ItsNotRexed/Leonida), a repository with 4,188 open pull requests (2026-11-23).
