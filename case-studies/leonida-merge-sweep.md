@@ -45,6 +45,9 @@ flowchart TD
 - The container gets the tree as a tar stream: no network, no Linux capabilities, a non-root user, memory and process limits.
   The laptop that runs it holds other data, and the pull requests come from authors I do not know.
 - A candidate is not a finding. I post only after I reproduce the failure on the newest `main` and find the cause.
+- `merge-bisect` finds the commit on `main` after which a merged test fails, and `train.py` merges many pull requests
+  locally, tests them once and drops the one that breaks a test. Graphs of both runs and of the merges on `main` that
+  break open pull requests: [pr-sandbox, Graphs](https://github.com/maciejszulia/pr-sandbox#graphs).
 
 ## Results
 
