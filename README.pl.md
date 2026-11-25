@@ -30,6 +30,8 @@ Piszę wymagania, agenci AI piszą kod, a ja odbieram wynik na testach. 2 sesje 
 
 Ten kod napisałem sam na studiach informatycznych na UWM, zanim zacząłem pracować z agentami AI. Repozytoria mają oryginalną historię commitów.
 
+<img src="assets/ai-code-vs-human-code.jpg" alt="Mem: ten sam kod Hello World dostaje grymas pod etykietą Ai code i zachwyt pod etykietą Code, human-written." width="560">
+
 - **[AiSD](https://github.com/maciejszulia/AiSD)**: algorytmy i struktury danych w Pythonie: lista jednokierunkowa, kolejka, stos, drzewo, drzewo BST, z testami. 49 commitów, 2021–2022.
 - **[po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy)**: programowanie obiektowe w Javie: 5 list zadań, kolokwium i zadania egzaminacyjne. 63 commity, 2021–2022.
 - **[C-prace-domowa](https://github.com/maciejszulia/C-prace-domowa)**: programowanie strukturalne w C: zadania w 3 rozdziałach, w tym wskaźniki. 2021.

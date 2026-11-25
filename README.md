@@ -35,6 +35,8 @@ I write the requirements, AI agents write the code, and I accept the result on t
 
 I wrote this code myself during my Computer Science studies at UWM, before I worked with AI agents. The repositories keep their original commit history.
 
+<img src="assets/ai-code-vs-human-code.jpg" alt="Meme: the same Hello World code gets a frown under the label Ai code and applause under the label Code, human-written." width="560">
+
 - **[AiSD](https://github.com/maciejszulia/AiSD)**: algorithms and data structures in Python: linked list, queue, stack, tree, binary search tree, with tests. 49 commits, 2021–2022.
 - **[po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy)**: object-oriented programming in Java: 5 exercise lists, a test and exam tasks. 63 commits, 2021–2022.
 - **[C-prace-domowa](https://github.com/maciejszulia/C-prace-domowa)**: structured programming in C: exercises in 3 chapters, including pointers. 2021.
