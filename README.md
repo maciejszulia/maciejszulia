@@ -38,10 +38,11 @@ I wrote this code myself during my Computer Science studies at UWM, before I wor
 - **[AiSD](https://github.com/maciejszulia/AiSD)**: algorithms and data structures in Python: linked list, queue, stack, tree, binary search tree, with tests. 49 commits, 2021–2022.
 - **[po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy)**: object-oriented programming in Java: 5 exercise lists, a test and exam tasks. 63 commits, 2021–2022.
 - **[C-prace-domowa](https://github.com/maciejszulia/C-prace-domowa)**: structured programming in C: exercises in 3 chapters, including pointers. 2021.
+- **[ProgDekl](https://github.com/maciejszulia/ProgDekl)**: declarative programming in Prolog: 10 labs and a team project. 2023.
 - **[python-uwm](https://github.com/maciejszulia/python-uwm)**: Python coursework: functions and modules, files, classes, NumPy, pandas. 33 commits, 2021.
 - **[Simple-Password-Generator](https://github.com/maciejszulia/Simple-Password-Generator)**: a small project of my own: a password generator with a Tkinter GUI. 2021–2023.
 
-15 more repositories from my student years are public on [my profile](https://github.com/maciejszulia?tab=repositories).
+18 more repositories from my student years are public on [my profile](https://github.com/maciejszulia?tab=repositories).
 
 ## More
 

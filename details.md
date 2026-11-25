@@ -52,10 +52,11 @@ Full lists behind the short profile README.
 | [AiSD](https://github.com/maciejszulia/AiSD) | Algorithms and data structures: linked list, queue, stack, tree, binary search tree, with tests. 49 commits, 2021–2022. | Python |
 | [po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy) | Object-oriented programming: 5 exercise lists, a test and exam tasks. 63 commits, 2021–2022. | Java |
 | [C-prace-domowa](https://github.com/maciejszulia/C-prace-domowa) | Structured programming: exercises in 3 chapters, including pointers. 2021. | C |
+| [ProgDekl](https://github.com/maciejszulia/ProgDekl) | Declarative programming: 10 labs and a team project. 2023. | Prolog |
 | [python-uwm](https://github.com/maciejszulia/python-uwm) | Coursework: functions and modules, files, classes, NumPy, pandas. 33 commits, 2021. | Python |
 | [Simple-Password-Generator](https://github.com/maciejszulia/Simple-Password-Generator) | A small project of my own: a password generator with a GUI. 2021–2023. | Python, Tkinter |
 
-15 more repositories from my student years are public on [my profile](https://github.com/maciejszulia?tab=repositories).
+18 more repositories from my student years are public on [my profile](https://github.com/maciejszulia?tab=repositories).
 
 ## Small services around those systems
 

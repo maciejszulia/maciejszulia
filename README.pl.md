@@ -33,10 +33,11 @@ Ten kod napisałem sam na studiach informatycznych na UWM, zanim zacząłem prac
 - **[AiSD](https://github.com/maciejszulia/AiSD)**: algorytmy i struktury danych w Pythonie: lista jednokierunkowa, kolejka, stos, drzewo, drzewo BST, z testami. 49 commitów, 2021–2022.
 - **[po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy)**: programowanie obiektowe w Javie: 5 list zadań, kolokwium i zadania egzaminacyjne. 63 commity, 2021–2022.
 - **[C-prace-domowa](https://github.com/maciejszulia/C-prace-domowa)**: programowanie strukturalne w C: zadania w 3 rozdziałach, w tym wskaźniki. 2021.
+- **[ProgDekl](https://github.com/maciejszulia/ProgDekl)**: programowanie deklaratywne w Prologu: 10 laboratoriów i projekt zespołowy. 2023.
 - **[python-uwm](https://github.com/maciejszulia/python-uwm)**: prace domowe z Pythona: funkcje i moduły, pliki, klasy, NumPy, pandas. 33 commity, 2021.
 - **[Simple-Password-Generator](https://github.com/maciejszulia/Simple-Password-Generator)**: mały własny projekt: generator haseł z interfejsem Tkinter. 2021–2023.
 
-15 kolejnych repozytoriów z czasów studiów jest publicznych na [moim profilu](https://github.com/maciejszulia?tab=repositories).
+18 kolejnych repozytoriów z czasów studiów jest publicznych na [moim profilu](https://github.com/maciejszulia?tab=repositories).
 
 ## Więcej
 
