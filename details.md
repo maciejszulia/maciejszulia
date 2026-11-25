@@ -45,6 +45,18 @@ Full lists behind the short profile README.
 | [traktat-ludzko-sztuczno-inteligencyjny](https://github.com/maciejszulia/traktat-ludzko-sztuczno-inteligencyjny) | 145 theses on the boundary between human and machine, in the numbering of the Tractatus. In Polish. | Markdown, LaTeX |
 | [samowystarczalny-system-do-zycia](https://github.com/maciejszulia/samowystarczalny-system-do-zycia)<br>[![CI](https://github.com/maciejszulia/samowystarczalny-system-do-zycia/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maciejszulia/samowystarczalny-system-do-zycia/actions/workflows/ci.yml) | Design of a self-sufficient 4.27 ha farm: food, heat, water, off-grid energy, a 3D model. In Polish. | Python |
 
+### Code written by hand at university (2020–2024)
+
+| Repository | What it is | Made with |
+|---|---|---|
+| [AiSD](https://github.com/maciejszulia/AiSD) | Algorithms and data structures: linked list, queue, stack, tree, binary search tree, with tests. 49 commits, 2021–2022. | Python |
+| [po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy) | Object-oriented programming: 5 exercise lists, a test and exam tasks. 63 commits, 2021–2022. | Java |
+| [C-prace-domowa](https://github.com/maciejszulia/C-prace-domowa) | Structured programming: exercises in 3 chapters, including pointers. 2021. | C |
+| [python-uwm](https://github.com/maciejszulia/python-uwm) | Coursework: functions and modules, files, classes, NumPy, pandas. 33 commits, 2021. | Python |
+| [Simple-Password-Generator](https://github.com/maciejszulia/Simple-Password-Generator) | A small project of my own: a password generator with a GUI. 2021–2023. | Python, Tkinter |
+
+15 more repositories from my student years are public on [my profile](https://github.com/maciejszulia?tab=repositories).
+
 ## Small services around those systems
 
 Each one is a separate process with one job.

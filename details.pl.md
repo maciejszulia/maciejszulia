@@ -45,6 +45,18 @@ Pełne listy do krótkiego README profilu.
 | [traktat-ludzko-sztuczno-inteligencyjny](https://github.com/maciejszulia/traktat-ludzko-sztuczno-inteligencyjny) | 145 tez o granicy między człowiekiem a maszyną, w numeracji „Traktatu”. | Markdown, LaTeX. |
 | [samowystarczalny-system-do-zycia](https://github.com/maciejszulia/samowystarczalny-system-do-zycia)<br>[![CI](https://github.com/maciejszulia/samowystarczalny-system-do-zycia/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maciejszulia/samowystarczalny-system-do-zycia/actions/workflows/ci.yml) | Projekt samowystarczalnego gospodarstwa o powierzchni 4,27 ha: żywność, ciepło, woda, energia off-grid, model 3D. | Python. |
 
+### Kod pisany ręcznie na studiach (2020–2024)
+
+| Repozytorium | Co zawiera | Technologie |
+|---|---|---|
+| [AiSD](https://github.com/maciejszulia/AiSD) | Algorytmy i struktury danych: lista jednokierunkowa, kolejka, stos, drzewo, drzewo BST, z testami. 49 commitów, 2021–2022. | Python. |
+| [po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy) | Programowanie obiektowe: 5 list zadań, kolokwium i zadania egzaminacyjne. 63 commity, 2021–2022. | Java. |
+| [C-prace-domowa](https://github.com/maciejszulia/C-prace-domowa) | Programowanie strukturalne: zadania w 3 rozdziałach, w tym wskaźniki. 2021. | C. |
+| [python-uwm](https://github.com/maciejszulia/python-uwm) | Prace domowe: funkcje i moduły, pliki, klasy, NumPy, pandas. 33 commity, 2021. | Python. |
+| [Simple-Password-Generator](https://github.com/maciejszulia/Simple-Password-Generator) | Mały własny projekt: generator haseł z interfejsem graficznym. 2021–2023. | Python, Tkinter. |
+
+15 kolejnych repozytoriów z czasów studiów jest publicznych na [moim profilu](https://github.com/maciejszulia?tab=repositories).
+
 ## Usługi wokół tych systemów
 
 Każda usługa to osobny proces z jednym zadaniem.

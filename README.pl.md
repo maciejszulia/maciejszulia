@@ -26,6 +26,18 @@ Kod 2 pierwszych systemów jest prywatny. Pokazuję go na żywo, człowiekowi.
 
 Piszę wymagania, agenci AI piszą kod, a ja odbieram wynik na testach. 2 sesje agentów pracują jako para: pierwsza planuje i ocenia, druga mierzy i pisze kod. 2 pierwsze systemy: ponad 2000 commitów od lipca 2026.
 
+## Kod pisany ręcznie (studia 2020–2024)
+
+Ten kod napisałem sam na studiach informatycznych na UWM, zanim zacząłem pracować z agentami AI. Repozytoria mają oryginalną historię commitów.
+
+- **[AiSD](https://github.com/maciejszulia/AiSD)**: algorytmy i struktury danych w Pythonie: lista jednokierunkowa, kolejka, stos, drzewo, drzewo BST, z testami. 49 commitów, 2021–2022.
+- **[po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy)**: programowanie obiektowe w Javie: 5 list zadań, kolokwium i zadania egzaminacyjne. 63 commity, 2021–2022.
+- **[C-prace-domowa](https://github.com/maciejszulia/C-prace-domowa)**: programowanie strukturalne w C: zadania w 3 rozdziałach, w tym wskaźniki. 2021.
+- **[python-uwm](https://github.com/maciejszulia/python-uwm)**: prace domowe z Pythona: funkcje i moduły, pliki, klasy, NumPy, pandas. 33 commity, 2021.
+- **[Simple-Password-Generator](https://github.com/maciejszulia/Simple-Password-Generator)**: mały własny projekt: generator haseł z interfejsem Tkinter. 2021–2023.
+
+15 kolejnych repozytoriów z czasów studiów jest publicznych na [moim profilu](https://github.com/maciejszulia?tab=repositories).
+
 ## Więcej
 
 [Jak moje modele dzielą pracę](https://github.com/maciejszulia/claude-code-skills/blob/main/docs/model-routing.pl.md) | [Każde repozytorium, usługa i narzędzie](details.pl.md) | [Kod według języków](details.pl.md#języki) | [Zapis weryfikacji](verification.md) | [Dane gości i licencje](engineering-practices.md) | [Dlaczego prośba do maszyny jest niebezpieczna](notes/why-ai-is-dangerous.pl.md) | [Filozofia](https://github.com/maciejszulia/philosophy)
