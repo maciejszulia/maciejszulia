@@ -65,3 +65,7 @@ Hobbies: Physics, philosophy and humanism.
 Favourite book: John Taylor's „Black Holes: The End of the Universe?” 
 
 Favourite math: Probability and Statistics.
+
+<img src="assets/me-and-my-homeboy-thinking.jpg" alt="Two beluga whales in blue water: one looks into the camera, the other leans its head on it from above." width="560">
+
+*me and my homeboy when we think (we dont do that often, maybe an hour a week..)*
