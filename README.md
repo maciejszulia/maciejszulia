@@ -1,13 +1,16 @@
+<div align="center">
+
 # Maciej Szulia
 
-Data engineering, metaprogramming tools, work automation & AI agents.
+**Mid-level Full-Stack Developer & AI Engineer**
 
-Mid-level Full-Stack Developer & AI Engineer. Information systems, web applications & APIs; 
+Data engineering, metaprogramming tools, work automation & AI agents.<br>
+Information systems, web applications & APIs.<br>
+Small-scale farmer & agritourism host.
 
-Small-scale farmer & agritourism host
+English | [Polski](README.pl.md)
 
-
-[Polski](README.pl.md)
+</div>
 
 ## What I build
 
@@ -35,7 +38,9 @@ I write the requirements, AI agents write the code, and I accept the result on t
 
 I wrote this code myself during my Computer Science studies at UWM, before I worked with AI agents. The repositories keep their original commit history.
 
-<img src="assets/ai-code-vs-human-code.jpg" alt="Meme: the same Hello World code gets a frown under the label Ai code and applause under the label Code, human-written." width="560">
+<p align="center">
+  <img src="assets/ai-code-vs-human-code.jpg" alt="Meme: the same Hello World code gets a frown under the label Ai code and applause under the label Code, human-written." width="560">
+</p>
 
 - **[AiSD](https://github.com/maciejszulia/AiSD)**: algorithms and data structures in Python: linked list, queue, stack, tree, binary search tree, with tests. 49 commits, 2021–2022.
 - **[po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy)**: object-oriented programming in Java: 5 exercise lists, a test and exam tasks. 63 commits, 2021–2022.
@@ -52,20 +57,18 @@ I wrote this code myself during my Computer Science studies at UWM, before I wor
 
 ## Contact and links
 
-- CV and website: https://maciejszulia.github.io
-- LinkedIn: https://www.linkedin.com/in/maciej-szulia
-- GitLab: https://gitlab.com/maciejszulia
-- Useme (freelance): https://useme.com/pl/roles/contractor/maciej-szulia,706953/
-- maciej.szulia@gmail.com
+[CV and website](https://maciejszulia.github.io) | [LinkedIn](https://www.linkedin.com/in/maciej-szulia) | [GitLab](https://gitlab.com/maciejszulia) | [Useme (freelance)](https://useme.com/pl/roles/contractor/maciej-szulia,706953/) | maciej.szulia@gmail.com
 
-As a human, I have will, attention and responsibility. 
+---
 
-Hobbies: Physics, philosophy and humanism. 
+> As a human, I have will, attention and responsibility.
 
-Favourite book: John Taylor's „Black Holes: The End of the Universe?” 
+- **Hobbies:** physics, philosophy and humanism
+- **Favourite book:** John Taylor, *Black Holes: The End of the Universe?*
+- **Favourite math:** probability and statistics
 
-Favourite math: Probability and Statistics.
+<p align="center">
+  <img src="assets/me-and-my-homeboy-thinking.jpg" alt="Two beluga whales in blue water: one looks into the camera, the other leans its head on it from above." width="560">
+</p>
 
-<img src="assets/me-and-my-homeboy-thinking.jpg" alt="Two beluga whales in blue water: one looks into the camera, the other leans its head on it from above." width="560">
-
-*me and my homeboy when we think (we dont do that often, maybe an hour a week..)*
+<p align="center"><em>me and my homeboy when we think (we dont do that often, maybe an hour a week..)</em></p>

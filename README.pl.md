@@ -1,8 +1,15 @@
+<div align="center">
+
 # Maciej Szulia
 
-Full-stack developer poziomu mid i inżynier AI. Systemy informacyjne, aplikacje webowe i API; narzędzia metaprogramistyczne; automatyzacja pracy z agentami AI.
+**Full-stack developer poziomu mid i inżynier AI**
 
-[English](README.md)
+Systemy informacyjne, aplikacje webowe i API.<br>
+Narzędzia metaprogramistyczne; automatyzacja pracy z agentami AI.
+
+[English](README.md) | Polski
+
+</div>
 
 ## Co buduję
 
@@ -30,7 +37,9 @@ Piszę wymagania, agenci AI piszą kod, a ja odbieram wynik na testach. 2 sesje 
 
 Ten kod napisałem sam na studiach informatycznych na UWM, zanim zacząłem pracować z agentami AI. Repozytoria mają oryginalną historię commitów.
 
-<img src="assets/ai-code-vs-human-code.jpg" alt="Mem: ten sam kod Hello World dostaje grymas pod etykietą Ai code i zachwyt pod etykietą Code, human-written." width="560">
+<p align="center">
+  <img src="assets/ai-code-vs-human-code.jpg" alt="Mem: ten sam kod Hello World dostaje grymas pod etykietą Ai code i zachwyt pod etykietą Code, human-written." width="560">
+</p>
 
 - **[AiSD](https://github.com/maciejszulia/AiSD)**: algorytmy i struktury danych w Pythonie: lista jednokierunkowa, kolejka, stos, drzewo, drzewo BST, z testami. 49 commitów, 2021–2022.
 - **[po-bitbucket-copy](https://github.com/maciejszulia/po-bitbucket-copy)**: programowanie obiektowe w Javie: 5 list zadań, kolokwium i zadania egzaminacyjne. 63 commity, 2021–2022.
@@ -47,14 +56,14 @@ Ten kod napisałem sam na studiach informatycznych na UWM, zanim zacząłem prac
 
 ## Kontakt i linki
 
-- CV i strona: https://maciejszulia.github.io
-- LinkedIn: https://www.linkedin.com/in/maciej-szulia
-- GitLab: https://gitlab.com/maciejszulia
-- Useme (zlecenia): https://useme.com/pl/roles/contractor/maciej-szulia,706953/
-- maciej.szulia@gmail.com
+[CV i strona](https://maciejszulia.github.io) | [LinkedIn](https://www.linkedin.com/in/maciej-szulia) | [GitLab](https://gitlab.com/maciejszulia) | [Useme (zlecenia)](https://useme.com/pl/roles/contractor/maciej-szulia,706953/) | maciej.szulia@gmail.com
 
-Jako człowiek mam wolę, uwagę i odpowiedzialność.
+---
 
-<img src="assets/me-and-my-homeboy-thinking.jpg" alt="Dwie białuchy w niebieskiej wodzie: jedna patrzy w obiektyw, druga opiera na niej głowę z góry." width="560">
+> Jako człowiek mam wolę, uwagę i odpowiedzialność.
 
-*me and my homeboy when we think (we dont do that often, maybe an hour a week..)*
+<p align="center">
+  <img src="assets/me-and-my-homeboy-thinking.jpg" alt="Dwie białuchy w niebieskiej wodzie: jedna patrzy w obiektyw, druga opiera na niej głowę z góry." width="560">
+</p>
+
+<p align="center"><em>me and my homeboy when we think (we dont do that often, maybe an hour a week..)</em></p>
