@@ -63,7 +63,7 @@ Ten kod napisałem sam na studiach informatycznych na UWM, zanim zacząłem prac
 > Jako człowiek mam wolę, uwagę i odpowiedzialność.
 
 <p align="center">
-  <img src="assets/me-and-my-homeboy-thinking.jpg" alt="Dwie białuchy w niebieskiej wodzie: jedna patrzy w obiektyw, druga opiera na niej głowę z góry." width="560">
+  <img src="assets/me-and-my-homeboy-thinking.jpg" alt="Dwie narlugi w niebieskiej wodzie: jedna patrzy w obiektyw, druga opiera na niej głowę z góry." width="560">
 </p>
 
 <p align="center"><em>me and my homeboy when we think (we dont do that often, maybe an hour a week..)</em></p>

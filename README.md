@@ -68,7 +68,7 @@ I wrote this code myself during my Computer Science studies at UWM, before I wor
 - **Favourite math:** probability and statistics
 
 <p align="center">
-  <img src="assets/me-and-my-homeboy-thinking.jpg" alt="Two beluga whales in blue water: one looks into the camera, the other leans its head on it from above." width="560">
+  <img src="assets/me-and-my-homeboy-thinking.jpg" alt="Two narlugas in blue water: one looks into the camera, the other leans its head on it from above." width="560">
 </p>
 
 <p align="center"><em>me and my homeboy when we think (we dont do that often, maybe an hour a week..)</em></p>
